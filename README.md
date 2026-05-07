@@ -3,14 +3,12 @@
 This repository contains a minimal replication package for the paper
 “Beyond Download and Derivative Counts: Identifying Technical Starting Points in Open Model Ecosystems”.
 
-The package is organized around the final results reported in the paper rather than the full local project history. It includes:
+It includes:
 
 - analysis scripts that directly support the reported results;
 - result tables used by the main text and appendix;
 - figure-generation scripts for the final paper figures;
 - an environment specification for the `modelrank` Conda environment.
-
-This repository does not include the paper source files (`.tex`) or internal review/debugging utilities.
 
 ## Repository layout
 
@@ -34,7 +32,7 @@ conda activate modelrank
 
 ## What is included
 
-The package contains the result files that are directly referenced by the final main-text and appendix tables and figures. It is therefore designed to support replication of the reported results, not to preserve all intermediate exploratory analyses from the local working directory.
+The package contains the result files that are directly referenced by the final main-text and appendix tables and figures.
 
 ## Large files and processed inputs
 
@@ -51,5 +49,4 @@ The underlying source dataset is `hfmlsoc/hub_weekly_snapshots`, which is public
 
 ## Notes
 
-- Script names have been cleaned for public release where necessary to remove local version suffixes such as `v2` or `v3`.
-- Internal audit, debugging, and manuscript-preparation utilities are intentionally excluded from this minimal package.
+The repository is intended to reproduce the reported results as presented in the paper.
