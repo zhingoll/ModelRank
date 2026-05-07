@@ -1,0 +1,7 @@
+method,rho_desc_count,rho_desc_depth,rho_desc_breadth,rho_active_months,rho_type_diversity
+ModelRank,0.262,0.259,0.263,0.262,0.261
+Downloads,0.215,0.213,0.215,0.215,0.214
+Likes,0.34,0.334,0.338,0.336,0.334
+DerivCount,0.254,0.25,0.256,0.255,0.254
+PureStruct,0.254,0.25,0.256,0.255,0.254
+CumStruct,0.988,0.988,0.999,0.999,0.999

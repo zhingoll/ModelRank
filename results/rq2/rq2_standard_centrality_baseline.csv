@@ -1,0 +1,2 @@
+method,hr_count_last_month,matched_pairs,matched_mean_abs_r,matched_min_abs_r,matched_max_abs_r,mean_hr_active_rate,mean_ctrl_active_rate,active_ratio,mean_hr_active_count,mean_hr_to_pr_rate,mean_ctrl_to_pr_rate,transition_ratio,mean_hr_to_pr_count,mean_top100_overlap
+Vanilla-PR,648816,25626,0.023833041601385618,0.022995518220785716,0.02518660517128124,,,,,,,,,0.43062108983493796
