@@ -1,7 +1,7 @@
 # Expert Agreement Inputs
 
-`vote_counts.csv` contains aggregate judgments for the 240 model pairs in the
-R1 submitted study. Each row represents one anonymous pair; `item_1` and
+`vote_counts.csv` contains aggregate judgments for 240 model pairs.
+Each row represents one anonymous pair; `item_1` and
 `item_2` refer to its two alternatives.
 
 | Field | Meaning |
@@ -31,5 +31,3 @@ python external.py expert --votes data/expert/vote_counts.csv
 The command prints agreement rates, Wilson intervals, direction coverage and
 Fleiss' kappa as JSON. Output method names `S3` and `Full ModelRank` correspond
 to ModelRank and MTPR, respectively.
-
-CSV SHA-256: `19e18fc7806f5bcd038a7543eef72abb249e738d1332681a8b5e1f5ce3954f08`.
