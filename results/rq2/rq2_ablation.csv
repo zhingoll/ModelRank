@@ -1,7 +1,0 @@
-variant,change,tau_1k,tau_5k,rho_1k
-Full ModelRank,(reference),1.0,1.0,1.0
-No event value,,0.769,0.776,0.913
-No quality weighting,,0.83,0.83,0.956
-No size mitigation,,0.838,0.83,0.954
-No temporal inherit,,0.841,0.811,0.948
-No type weights,,0.874,0.857,0.974

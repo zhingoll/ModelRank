@@ -1,0 +1,4 @@
+horizon,before_pairs,after_pairs,retention,before_distinct_hr,after_distinct_hr,before_positive_likes_pairs,after_positive_likes_pairs
+1,26954,24351,0.9034280626252134,12740,11416,5100,2497
+3,22449,20368,0.9073009933627333,11401,10263,3989,1908
+6,14658,13477,0.9194296629826716,8392,7659,2156,975

@@ -1,18 +1,8 @@
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+.venv/
+assets/
+generated/
+*.zip
 .DS_Store
 Thumbs.db
-
-# Local runtime outputs
-figures/
-generated/
-logs/
-
-# Large release assets are not tracked in the main repo
-results/shared/modelrank_scores.csv
-
-# Editor / environment noise
-.vscode/
-.idea/

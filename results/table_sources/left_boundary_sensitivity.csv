@@ -1,0 +1,2 @@
+month,nodes,initialization_pair_events_main,initialization_pair_events_sensitivity,topology_pairs,max_abs_score_difference,mean_abs_score_difference,spearman,kendall,reuse_high_jaccard,role_changes,main_quality_input_mass,main_event_input_mass,sensitivity_quality_input_mass,sensitivity_event_input_mass
+2024-07,136705,0,144377,144377,3667.0427379338507,0.9606125009502965,0.9901422379357843,0.9731345296869008,0.5476001811184061,7993,1.0,0.0,0.1,0.9

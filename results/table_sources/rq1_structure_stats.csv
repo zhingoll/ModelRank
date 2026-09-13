@@ -1,0 +1,2 @@
+final_month,total_models_in_network,total_edges,unique_parents,unique_children,single_parent_pct,multi_parent_pct,max_parents,alltime_gini,alltime_median_derivs,alltime_mean_derivs,top_parent_model,top_parent_edges,top_parent_share_pct,single_typed_edges,multiple_typed_edges,unknown_type_edges,post_boundary_event_edges,avg_event_graph_dangling_pct_after_boundary
+2026-02,721364,707674,64759,675259,97.6369067276408,2.3630932723591984,63,0.8619277997931596,1.0,10.927809262033076,black-forest-labs/FLUX.1-dev,37189,5.255103338542888,705063,1882,729,456389,93.98470098923593

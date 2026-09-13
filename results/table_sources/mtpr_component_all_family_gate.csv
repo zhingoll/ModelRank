@@ -1,0 +1,8 @@
+baseline,sum,count,all
+No PageRank propagation,2,4,False
+No child quality,0,4,False
+No event injection,0,4,False
+No parent size,0,4,False
+No quality teleport,0,4,False
+No temporal inheritance,0,4,False
+No type weight,0,4,False

@@ -1,0 +1,17 @@
+version,origin_role,future_role,count,row_total,rate
+corrected,Hidden Root,Hidden Root,234808,319270,0.7354527515895637
+corrected,Hidden Root,Long Tail,60600,319270,0.18980799949885677
+corrected,Hidden Root,Popular Leaf,233,319270,0.0007297898330566605
+corrected,Hidden Root,Popular Root,23629,319270,0.07400945907852288
+corrected,Long Tail,Hidden Root,53788,7607877,0.007070040695978655
+corrected,Long Tail,Long Tail,7375149,7607877,0.9694096000763419
+corrected,Long Tail,Popular Leaf,130629,7607877,0.017170230275804933
+corrected,Long Tail,Popular Root,48311,7607877,0.006350128951874485
+corrected,Popular Leaf,Hidden Root,777,323711,0.0024002891468006956
+corrected,Popular Leaf,Long Tail,168380,323711,0.5201553237301173
+corrected,Popular Leaf,Popular Leaf,110583,323711,0.3416102634757546
+corrected,Popular Leaf,Popular Root,43971,323711,0.1358341236473274
+corrected,Popular Root,Hidden Root,30446,562483,0.05412785808637772
+corrected,Popular Root,Long Tail,62333,562483,0.11081757137549046
+corrected,Popular Root,Popular Leaf,54102,562483,0.09618424023481599
+corrected,Popular Root,Popular Root,415602,562483,0.7388703303033158

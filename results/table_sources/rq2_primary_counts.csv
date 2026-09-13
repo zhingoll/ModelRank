@@ -1,0 +1,10 @@
+baseline,win,tie,loss
+AllTime DerivCount,3,18,0
+Current DerivCount,15,6,0
+Downloads,16,5,0
+EventValue_time_safe_typed,15,6,0
+Likes,8,13,0
+MTPR_time_safe_typed,2,19,0
+No-Propagation ModelRank,6,15,0
+Simplified_MTPR_time_safe_typed,8,13,0
+Vanilla PageRank,3,18,0

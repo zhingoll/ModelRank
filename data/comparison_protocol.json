@@ -1,0 +1,65 @@
+{
+  "origins": {
+    "three_month": [
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "repropagation": [
+      "2025-06",
+      "2025-07",
+      "2025-08"
+    ]
+  },
+  "metric_families": {
+    "quantity": [
+      "future_direct_children_3m",
+      "future_active_parent_months_3m",
+      "future_active_parent_binary_3m"
+    ],
+    "descendant_quality": [
+      "future_child_download_quality_sum_3m",
+      "future_child_like_quality_sum_3m",
+      "future_high_download_child_count_3m",
+      "future_high_like_child_count_3m",
+      "future_nonzero_like_child_share_3m",
+      "future_nonzero_download_child_share_3m",
+      "future_child_download_quality_mean_3m",
+      "future_child_download_quality_median_3m",
+      "future_child_like_quality_mean_3m",
+      "future_child_like_quality_median_3m"
+    ],
+    "repropagation": [
+      "future_child_becomes_parent_share_3m",
+      "future_child_future_child_count_mean_3m",
+      "future_child_future_child_count_median_3m",
+      "future_child_second_order_diffusion_share_3m"
+    ],
+    "adoption_breadth": [
+      "future_child_owner_breadth_3m",
+      "future_high_download_child_owner_breadth_3m",
+      "future_high_like_child_owner_breadth_3m",
+      "future_cross_owner_reuse_share_3m"
+    ]
+  },
+  "inference": {
+    "paired_unit": "origin_month",
+    "paired_interval": "two-sided t 95 percent",
+    "holm_family_size": 21,
+    "holm_scope": "all metrics per ordered specification-minus-comparator contrast",
+    "alpha": 0.05,
+    "bootstrap": "10000 deterministic origin-month resamples seed 20260811",
+    "bootstrap_direction_must_not_contradict": true,
+    "material_thresholds": {
+      "roc_auc_difference": 0.01,
+      "top_decile_lift_difference": 0.1
+    },
+    "metric_effect_scale": "signed difference divided by its frozen material threshold",
+    "family_aggregate": "equal mean of scaled metric effects within family",
+    "family_positive_gate": "mean material index >=1.0 and paired 95 percent lower bound >0 plus at least one Holm-robust material metric",
+    "missing_or_nonestimable": "retain explicit row and invalidate recommendation unless recorded as failed specification"
+  }
+}

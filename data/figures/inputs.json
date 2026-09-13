@@ -1,0 +1,28 @@
+{
+  "scatter": {
+    "population": 721364,
+    "download_p90": 45.0,
+    "score_p90": 0.2434687593373653,
+    "long_tail_n": 7000,
+    "long_tail_seed": 42,
+    "retained_rows": 106669,
+    "inset_rows": 35789,
+    "role_counts": {
+      "LT": 624623,
+      "PR": 48154,
+      "PL": 24394,
+      "HR": 24193
+    }
+  },
+  "trajectory_rows": 58,
+  "sha256": {
+    "overview.svg": "7e1dc283dc684ad3474eb2868fe6918d32ab842ac81cf7b857ba294f7996ce7d",
+    "rq1_concentration.csv": "4c7134077fe8467b95da3316e543a77e09bc3c1b4b4f6cecc67fead50dbaddc3",
+    "rq1_type_evolution.csv": "532b0c9e0e8306a1027b087a4d551dc54620ad4a3e7543c7b9b9c47e67cc5ad9",
+    "scatter.csv.gz": "152af81d6c75d65ac306a2f3983a4133557a5695ca0f04b4112f7c26dfe064b5",
+    "trajectories.csv": "051f9cf781135b78fa57bf92a35ff26ab053b939e1be4d937acffcfb41a3ccab",
+    "transitions.csv": "196c0830c71a717cbdbda2bffc15267d750a4b9db607d177deec8f1eacf87674",
+    "fig1_panel_a_overall_study_overview.pdf": "436507dfba6efaabba729e484444307f68aa30d5a948889a873d722c4540df0b"
+  },
+  "schematic_delivery": "Figure 1: frozen manually authored PDF reused unchanged, not regenerated; SVG supplied for editing."
+}

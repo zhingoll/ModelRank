@@ -1,6 +1,0 @@
-domain,models,gini,top10_score_share,pct_with_derivs
-NLP,230385,0.676,5.8,1.1
-CV,84593,0.51,2.2,0.3
-Multimodal,10194,0.699,12.3,4.0
-Audio,17613,0.725,7.1,1.2
-RL/Robotics,4750,0.803,38.1,0.5

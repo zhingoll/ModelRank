@@ -1,0 +1,361 @@
+method,mapping,domain,minimum_domain_size,domain_n,included
+S_C3_Q10,submitted,Audio,0,17613,True
+S_C3_Q10,submitted,Audio,5000,17613,True
+S_C3_Q10,submitted,Audio,10000,17613,True
+S_C3_Q10,submitted,Audio,25000,17613,False
+S_C3_Q10,submitted,CV,0,84593,True
+S_C3_Q10,submitted,CV,5000,84593,True
+S_C3_Q10,submitted,CV,10000,84593,True
+S_C3_Q10,submitted,CV,25000,84593,True
+S_C3_Q10,submitted,Multimodal,0,10194,True
+S_C3_Q10,submitted,Multimodal,5000,10194,True
+S_C3_Q10,submitted,Multimodal,10000,10194,True
+S_C3_Q10,submitted,Multimodal,25000,10194,False
+S_C3_Q10,submitted,NLP,0,230385,True
+S_C3_Q10,submitted,NLP,5000,230385,True
+S_C3_Q10,submitted,NLP,10000,230385,True
+S_C3_Q10,submitted,NLP,25000,230385,True
+S_C3_Q10,submitted,RL/Robotics,0,4750,True
+S_C3_Q10,submitted,RL/Robotics,5000,4750,False
+S_C3_Q10,submitted,RL/Robotics,10000,4750,False
+S_C3_Q10,submitted,RL/Robotics,25000,4750,False
+S_C3_Q10,crossmodal_reassigned,Audio,0,17613,True
+S_C3_Q10,crossmodal_reassigned,Audio,5000,17613,True
+S_C3_Q10,crossmodal_reassigned,Audio,10000,17613,True
+S_C3_Q10,crossmodal_reassigned,Audio,25000,17613,False
+S_C3_Q10,crossmodal_reassigned,CV,0,18351,True
+S_C3_Q10,crossmodal_reassigned,CV,5000,18351,True
+S_C3_Q10,crossmodal_reassigned,CV,10000,18351,True
+S_C3_Q10,crossmodal_reassigned,CV,25000,18351,False
+S_C3_Q10,crossmodal_reassigned,Multimodal,0,76436,True
+S_C3_Q10,crossmodal_reassigned,Multimodal,5000,76436,True
+S_C3_Q10,crossmodal_reassigned,Multimodal,10000,76436,True
+S_C3_Q10,crossmodal_reassigned,Multimodal,25000,76436,True
+S_C3_Q10,crossmodal_reassigned,NLP,0,230385,True
+S_C3_Q10,crossmodal_reassigned,NLP,5000,230385,True
+S_C3_Q10,crossmodal_reassigned,NLP,10000,230385,True
+S_C3_Q10,crossmodal_reassigned,NLP,25000,230385,True
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,0,4750,True
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,5000,4750,False
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,10000,4750,False
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,25000,4750,False
+Full ModelRank,submitted,Audio,0,17613,True
+Full ModelRank,submitted,Audio,5000,17613,True
+Full ModelRank,submitted,Audio,10000,17613,True
+Full ModelRank,submitted,Audio,25000,17613,False
+Full ModelRank,submitted,CV,0,84593,True
+Full ModelRank,submitted,CV,5000,84593,True
+Full ModelRank,submitted,CV,10000,84593,True
+Full ModelRank,submitted,CV,25000,84593,True
+Full ModelRank,submitted,Multimodal,0,10194,True
+Full ModelRank,submitted,Multimodal,5000,10194,True
+Full ModelRank,submitted,Multimodal,10000,10194,True
+Full ModelRank,submitted,Multimodal,25000,10194,False
+Full ModelRank,submitted,NLP,0,230385,True
+Full ModelRank,submitted,NLP,5000,230385,True
+Full ModelRank,submitted,NLP,10000,230385,True
+Full ModelRank,submitted,NLP,25000,230385,True
+Full ModelRank,submitted,RL/Robotics,0,4750,True
+Full ModelRank,submitted,RL/Robotics,5000,4750,False
+Full ModelRank,submitted,RL/Robotics,10000,4750,False
+Full ModelRank,submitted,RL/Robotics,25000,4750,False
+Full ModelRank,crossmodal_reassigned,Audio,0,17613,True
+Full ModelRank,crossmodal_reassigned,Audio,5000,17613,True
+Full ModelRank,crossmodal_reassigned,Audio,10000,17613,True
+Full ModelRank,crossmodal_reassigned,Audio,25000,17613,False
+Full ModelRank,crossmodal_reassigned,CV,0,18351,True
+Full ModelRank,crossmodal_reassigned,CV,5000,18351,True
+Full ModelRank,crossmodal_reassigned,CV,10000,18351,True
+Full ModelRank,crossmodal_reassigned,CV,25000,18351,False
+Full ModelRank,crossmodal_reassigned,Multimodal,0,76436,True
+Full ModelRank,crossmodal_reassigned,Multimodal,5000,76436,True
+Full ModelRank,crossmodal_reassigned,Multimodal,10000,76436,True
+Full ModelRank,crossmodal_reassigned,Multimodal,25000,76436,True
+Full ModelRank,crossmodal_reassigned,NLP,0,230385,True
+Full ModelRank,crossmodal_reassigned,NLP,5000,230385,True
+Full ModelRank,crossmodal_reassigned,NLP,10000,230385,True
+Full ModelRank,crossmodal_reassigned,NLP,25000,230385,True
+Full ModelRank,crossmodal_reassigned,RL/Robotics,0,4750,True
+Full ModelRank,crossmodal_reassigned,RL/Robotics,5000,4750,False
+Full ModelRank,crossmodal_reassigned,RL/Robotics,10000,4750,False
+Full ModelRank,crossmodal_reassigned,RL/Robotics,25000,4750,False
+Simplified-MR (legacy),submitted,Audio,0,17613,True
+Simplified-MR (legacy),submitted,Audio,5000,17613,True
+Simplified-MR (legacy),submitted,Audio,10000,17613,True
+Simplified-MR (legacy),submitted,Audio,25000,17613,False
+Simplified-MR (legacy),submitted,CV,0,84593,True
+Simplified-MR (legacy),submitted,CV,5000,84593,True
+Simplified-MR (legacy),submitted,CV,10000,84593,True
+Simplified-MR (legacy),submitted,CV,25000,84593,True
+Simplified-MR (legacy),submitted,Multimodal,0,10194,True
+Simplified-MR (legacy),submitted,Multimodal,5000,10194,True
+Simplified-MR (legacy),submitted,Multimodal,10000,10194,True
+Simplified-MR (legacy),submitted,Multimodal,25000,10194,False
+Simplified-MR (legacy),submitted,NLP,0,230385,True
+Simplified-MR (legacy),submitted,NLP,5000,230385,True
+Simplified-MR (legacy),submitted,NLP,10000,230385,True
+Simplified-MR (legacy),submitted,NLP,25000,230385,True
+Simplified-MR (legacy),submitted,RL/Robotics,0,4750,True
+Simplified-MR (legacy),submitted,RL/Robotics,5000,4750,False
+Simplified-MR (legacy),submitted,RL/Robotics,10000,4750,False
+Simplified-MR (legacy),submitted,RL/Robotics,25000,4750,False
+Simplified-MR (legacy),crossmodal_reassigned,Audio,0,17613,True
+Simplified-MR (legacy),crossmodal_reassigned,Audio,5000,17613,True
+Simplified-MR (legacy),crossmodal_reassigned,Audio,10000,17613,True
+Simplified-MR (legacy),crossmodal_reassigned,Audio,25000,17613,False
+Simplified-MR (legacy),crossmodal_reassigned,CV,0,18351,True
+Simplified-MR (legacy),crossmodal_reassigned,CV,5000,18351,True
+Simplified-MR (legacy),crossmodal_reassigned,CV,10000,18351,True
+Simplified-MR (legacy),crossmodal_reassigned,CV,25000,18351,False
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,0,76436,True
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,5000,76436,True
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,10000,76436,True
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,25000,76436,True
+Simplified-MR (legacy),crossmodal_reassigned,NLP,0,230385,True
+Simplified-MR (legacy),crossmodal_reassigned,NLP,5000,230385,True
+Simplified-MR (legacy),crossmodal_reassigned,NLP,10000,230385,True
+Simplified-MR (legacy),crossmodal_reassigned,NLP,25000,230385,True
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,0,4750,True
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,5000,4750,False
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,10000,4750,False
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,25000,4750,False
+Current DerivCount,submitted,Audio,0,17613,True
+Current DerivCount,submitted,Audio,5000,17613,True
+Current DerivCount,submitted,Audio,10000,17613,True
+Current DerivCount,submitted,Audio,25000,17613,False
+Current DerivCount,submitted,CV,0,84593,True
+Current DerivCount,submitted,CV,5000,84593,True
+Current DerivCount,submitted,CV,10000,84593,True
+Current DerivCount,submitted,CV,25000,84593,True
+Current DerivCount,submitted,Multimodal,0,10194,True
+Current DerivCount,submitted,Multimodal,5000,10194,True
+Current DerivCount,submitted,Multimodal,10000,10194,True
+Current DerivCount,submitted,Multimodal,25000,10194,False
+Current DerivCount,submitted,NLP,0,230385,True
+Current DerivCount,submitted,NLP,5000,230385,True
+Current DerivCount,submitted,NLP,10000,230385,True
+Current DerivCount,submitted,NLP,25000,230385,True
+Current DerivCount,submitted,RL/Robotics,0,4750,True
+Current DerivCount,submitted,RL/Robotics,5000,4750,False
+Current DerivCount,submitted,RL/Robotics,10000,4750,False
+Current DerivCount,submitted,RL/Robotics,25000,4750,False
+Current DerivCount,crossmodal_reassigned,Audio,0,17613,True
+Current DerivCount,crossmodal_reassigned,Audio,5000,17613,True
+Current DerivCount,crossmodal_reassigned,Audio,10000,17613,True
+Current DerivCount,crossmodal_reassigned,Audio,25000,17613,False
+Current DerivCount,crossmodal_reassigned,CV,0,18351,True
+Current DerivCount,crossmodal_reassigned,CV,5000,18351,True
+Current DerivCount,crossmodal_reassigned,CV,10000,18351,True
+Current DerivCount,crossmodal_reassigned,CV,25000,18351,False
+Current DerivCount,crossmodal_reassigned,Multimodal,0,76436,True
+Current DerivCount,crossmodal_reassigned,Multimodal,5000,76436,True
+Current DerivCount,crossmodal_reassigned,Multimodal,10000,76436,True
+Current DerivCount,crossmodal_reassigned,Multimodal,25000,76436,True
+Current DerivCount,crossmodal_reassigned,NLP,0,230385,True
+Current DerivCount,crossmodal_reassigned,NLP,5000,230385,True
+Current DerivCount,crossmodal_reassigned,NLP,10000,230385,True
+Current DerivCount,crossmodal_reassigned,NLP,25000,230385,True
+Current DerivCount,crossmodal_reassigned,RL/Robotics,0,4750,True
+Current DerivCount,crossmodal_reassigned,RL/Robotics,5000,4750,False
+Current DerivCount,crossmodal_reassigned,RL/Robotics,10000,4750,False
+Current DerivCount,crossmodal_reassigned,RL/Robotics,25000,4750,False
+AllTime DerivCount,submitted,Audio,0,17613,True
+AllTime DerivCount,submitted,Audio,5000,17613,True
+AllTime DerivCount,submitted,Audio,10000,17613,True
+AllTime DerivCount,submitted,Audio,25000,17613,False
+AllTime DerivCount,submitted,CV,0,84593,True
+AllTime DerivCount,submitted,CV,5000,84593,True
+AllTime DerivCount,submitted,CV,10000,84593,True
+AllTime DerivCount,submitted,CV,25000,84593,True
+AllTime DerivCount,submitted,Multimodal,0,10194,True
+AllTime DerivCount,submitted,Multimodal,5000,10194,True
+AllTime DerivCount,submitted,Multimodal,10000,10194,True
+AllTime DerivCount,submitted,Multimodal,25000,10194,False
+AllTime DerivCount,submitted,NLP,0,230385,True
+AllTime DerivCount,submitted,NLP,5000,230385,True
+AllTime DerivCount,submitted,NLP,10000,230385,True
+AllTime DerivCount,submitted,NLP,25000,230385,True
+AllTime DerivCount,submitted,RL/Robotics,0,4750,True
+AllTime DerivCount,submitted,RL/Robotics,5000,4750,False
+AllTime DerivCount,submitted,RL/Robotics,10000,4750,False
+AllTime DerivCount,submitted,RL/Robotics,25000,4750,False
+AllTime DerivCount,crossmodal_reassigned,Audio,0,17613,True
+AllTime DerivCount,crossmodal_reassigned,Audio,5000,17613,True
+AllTime DerivCount,crossmodal_reassigned,Audio,10000,17613,True
+AllTime DerivCount,crossmodal_reassigned,Audio,25000,17613,False
+AllTime DerivCount,crossmodal_reassigned,CV,0,18351,True
+AllTime DerivCount,crossmodal_reassigned,CV,5000,18351,True
+AllTime DerivCount,crossmodal_reassigned,CV,10000,18351,True
+AllTime DerivCount,crossmodal_reassigned,CV,25000,18351,False
+AllTime DerivCount,crossmodal_reassigned,Multimodal,0,76436,True
+AllTime DerivCount,crossmodal_reassigned,Multimodal,5000,76436,True
+AllTime DerivCount,crossmodal_reassigned,Multimodal,10000,76436,True
+AllTime DerivCount,crossmodal_reassigned,Multimodal,25000,76436,True
+AllTime DerivCount,crossmodal_reassigned,NLP,0,230385,True
+AllTime DerivCount,crossmodal_reassigned,NLP,5000,230385,True
+AllTime DerivCount,crossmodal_reassigned,NLP,10000,230385,True
+AllTime DerivCount,crossmodal_reassigned,NLP,25000,230385,True
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,0,4750,True
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,5000,4750,False
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,10000,4750,False
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,25000,4750,False
+EventValue,submitted,Audio,0,17613,True
+EventValue,submitted,Audio,5000,17613,True
+EventValue,submitted,Audio,10000,17613,True
+EventValue,submitted,Audio,25000,17613,False
+EventValue,submitted,CV,0,84593,True
+EventValue,submitted,CV,5000,84593,True
+EventValue,submitted,CV,10000,84593,True
+EventValue,submitted,CV,25000,84593,True
+EventValue,submitted,Multimodal,0,10194,True
+EventValue,submitted,Multimodal,5000,10194,True
+EventValue,submitted,Multimodal,10000,10194,True
+EventValue,submitted,Multimodal,25000,10194,False
+EventValue,submitted,NLP,0,230385,True
+EventValue,submitted,NLP,5000,230385,True
+EventValue,submitted,NLP,10000,230385,True
+EventValue,submitted,NLP,25000,230385,True
+EventValue,submitted,RL/Robotics,0,4750,True
+EventValue,submitted,RL/Robotics,5000,4750,False
+EventValue,submitted,RL/Robotics,10000,4750,False
+EventValue,submitted,RL/Robotics,25000,4750,False
+EventValue,crossmodal_reassigned,Audio,0,17613,True
+EventValue,crossmodal_reassigned,Audio,5000,17613,True
+EventValue,crossmodal_reassigned,Audio,10000,17613,True
+EventValue,crossmodal_reassigned,Audio,25000,17613,False
+EventValue,crossmodal_reassigned,CV,0,18351,True
+EventValue,crossmodal_reassigned,CV,5000,18351,True
+EventValue,crossmodal_reassigned,CV,10000,18351,True
+EventValue,crossmodal_reassigned,CV,25000,18351,False
+EventValue,crossmodal_reassigned,Multimodal,0,76436,True
+EventValue,crossmodal_reassigned,Multimodal,5000,76436,True
+EventValue,crossmodal_reassigned,Multimodal,10000,76436,True
+EventValue,crossmodal_reassigned,Multimodal,25000,76436,True
+EventValue,crossmodal_reassigned,NLP,0,230385,True
+EventValue,crossmodal_reassigned,NLP,5000,230385,True
+EventValue,crossmodal_reassigned,NLP,10000,230385,True
+EventValue,crossmodal_reassigned,NLP,25000,230385,True
+EventValue,crossmodal_reassigned,RL/Robotics,0,4750,True
+EventValue,crossmodal_reassigned,RL/Robotics,5000,4750,False
+EventValue,crossmodal_reassigned,RL/Robotics,10000,4750,False
+EventValue,crossmodal_reassigned,RL/Robotics,25000,4750,False
+Vanilla PageRank,submitted,Audio,0,17613,True
+Vanilla PageRank,submitted,Audio,5000,17613,True
+Vanilla PageRank,submitted,Audio,10000,17613,True
+Vanilla PageRank,submitted,Audio,25000,17613,False
+Vanilla PageRank,submitted,CV,0,84593,True
+Vanilla PageRank,submitted,CV,5000,84593,True
+Vanilla PageRank,submitted,CV,10000,84593,True
+Vanilla PageRank,submitted,CV,25000,84593,True
+Vanilla PageRank,submitted,Multimodal,0,10194,True
+Vanilla PageRank,submitted,Multimodal,5000,10194,True
+Vanilla PageRank,submitted,Multimodal,10000,10194,True
+Vanilla PageRank,submitted,Multimodal,25000,10194,False
+Vanilla PageRank,submitted,NLP,0,230385,True
+Vanilla PageRank,submitted,NLP,5000,230385,True
+Vanilla PageRank,submitted,NLP,10000,230385,True
+Vanilla PageRank,submitted,NLP,25000,230385,True
+Vanilla PageRank,submitted,RL/Robotics,0,4750,True
+Vanilla PageRank,submitted,RL/Robotics,5000,4750,False
+Vanilla PageRank,submitted,RL/Robotics,10000,4750,False
+Vanilla PageRank,submitted,RL/Robotics,25000,4750,False
+Vanilla PageRank,crossmodal_reassigned,Audio,0,17613,True
+Vanilla PageRank,crossmodal_reassigned,Audio,5000,17613,True
+Vanilla PageRank,crossmodal_reassigned,Audio,10000,17613,True
+Vanilla PageRank,crossmodal_reassigned,Audio,25000,17613,False
+Vanilla PageRank,crossmodal_reassigned,CV,0,18351,True
+Vanilla PageRank,crossmodal_reassigned,CV,5000,18351,True
+Vanilla PageRank,crossmodal_reassigned,CV,10000,18351,True
+Vanilla PageRank,crossmodal_reassigned,CV,25000,18351,False
+Vanilla PageRank,crossmodal_reassigned,Multimodal,0,76436,True
+Vanilla PageRank,crossmodal_reassigned,Multimodal,5000,76436,True
+Vanilla PageRank,crossmodal_reassigned,Multimodal,10000,76436,True
+Vanilla PageRank,crossmodal_reassigned,Multimodal,25000,76436,True
+Vanilla PageRank,crossmodal_reassigned,NLP,0,230385,True
+Vanilla PageRank,crossmodal_reassigned,NLP,5000,230385,True
+Vanilla PageRank,crossmodal_reassigned,NLP,10000,230385,True
+Vanilla PageRank,crossmodal_reassigned,NLP,25000,230385,True
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,0,4750,True
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,5000,4750,False
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,10000,4750,False
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,25000,4750,False
+Downloads,submitted,Audio,0,17613,True
+Downloads,submitted,Audio,5000,17613,True
+Downloads,submitted,Audio,10000,17613,True
+Downloads,submitted,Audio,25000,17613,False
+Downloads,submitted,CV,0,84593,True
+Downloads,submitted,CV,5000,84593,True
+Downloads,submitted,CV,10000,84593,True
+Downloads,submitted,CV,25000,84593,True
+Downloads,submitted,Multimodal,0,10194,True
+Downloads,submitted,Multimodal,5000,10194,True
+Downloads,submitted,Multimodal,10000,10194,True
+Downloads,submitted,Multimodal,25000,10194,False
+Downloads,submitted,NLP,0,230385,True
+Downloads,submitted,NLP,5000,230385,True
+Downloads,submitted,NLP,10000,230385,True
+Downloads,submitted,NLP,25000,230385,True
+Downloads,submitted,RL/Robotics,0,4750,True
+Downloads,submitted,RL/Robotics,5000,4750,False
+Downloads,submitted,RL/Robotics,10000,4750,False
+Downloads,submitted,RL/Robotics,25000,4750,False
+Downloads,crossmodal_reassigned,Audio,0,17613,True
+Downloads,crossmodal_reassigned,Audio,5000,17613,True
+Downloads,crossmodal_reassigned,Audio,10000,17613,True
+Downloads,crossmodal_reassigned,Audio,25000,17613,False
+Downloads,crossmodal_reassigned,CV,0,18351,True
+Downloads,crossmodal_reassigned,CV,5000,18351,True
+Downloads,crossmodal_reassigned,CV,10000,18351,True
+Downloads,crossmodal_reassigned,CV,25000,18351,False
+Downloads,crossmodal_reassigned,Multimodal,0,76436,True
+Downloads,crossmodal_reassigned,Multimodal,5000,76436,True
+Downloads,crossmodal_reassigned,Multimodal,10000,76436,True
+Downloads,crossmodal_reassigned,Multimodal,25000,76436,True
+Downloads,crossmodal_reassigned,NLP,0,230385,True
+Downloads,crossmodal_reassigned,NLP,5000,230385,True
+Downloads,crossmodal_reassigned,NLP,10000,230385,True
+Downloads,crossmodal_reassigned,NLP,25000,230385,True
+Downloads,crossmodal_reassigned,RL/Robotics,0,4750,True
+Downloads,crossmodal_reassigned,RL/Robotics,5000,4750,False
+Downloads,crossmodal_reassigned,RL/Robotics,10000,4750,False
+Downloads,crossmodal_reassigned,RL/Robotics,25000,4750,False
+Likes,submitted,Audio,0,17613,True
+Likes,submitted,Audio,5000,17613,True
+Likes,submitted,Audio,10000,17613,True
+Likes,submitted,Audio,25000,17613,False
+Likes,submitted,CV,0,84593,True
+Likes,submitted,CV,5000,84593,True
+Likes,submitted,CV,10000,84593,True
+Likes,submitted,CV,25000,84593,True
+Likes,submitted,Multimodal,0,10194,True
+Likes,submitted,Multimodal,5000,10194,True
+Likes,submitted,Multimodal,10000,10194,True
+Likes,submitted,Multimodal,25000,10194,False
+Likes,submitted,NLP,0,230385,True
+Likes,submitted,NLP,5000,230385,True
+Likes,submitted,NLP,10000,230385,True
+Likes,submitted,NLP,25000,230385,True
+Likes,submitted,RL/Robotics,0,4750,True
+Likes,submitted,RL/Robotics,5000,4750,False
+Likes,submitted,RL/Robotics,10000,4750,False
+Likes,submitted,RL/Robotics,25000,4750,False
+Likes,crossmodal_reassigned,Audio,0,17613,True
+Likes,crossmodal_reassigned,Audio,5000,17613,True
+Likes,crossmodal_reassigned,Audio,10000,17613,True
+Likes,crossmodal_reassigned,Audio,25000,17613,False
+Likes,crossmodal_reassigned,CV,0,18351,True
+Likes,crossmodal_reassigned,CV,5000,18351,True
+Likes,crossmodal_reassigned,CV,10000,18351,True
+Likes,crossmodal_reassigned,CV,25000,18351,False
+Likes,crossmodal_reassigned,Multimodal,0,76436,True
+Likes,crossmodal_reassigned,Multimodal,5000,76436,True
+Likes,crossmodal_reassigned,Multimodal,10000,76436,True
+Likes,crossmodal_reassigned,Multimodal,25000,76436,True
+Likes,crossmodal_reassigned,NLP,0,230385,True
+Likes,crossmodal_reassigned,NLP,5000,230385,True
+Likes,crossmodal_reassigned,NLP,10000,230385,True
+Likes,crossmodal_reassigned,NLP,25000,230385,True
+Likes,crossmodal_reassigned,RL/Robotics,0,4750,True
+Likes,crossmodal_reassigned,RL/Robotics,5000,4750,False
+Likes,crossmodal_reassigned,RL/Robotics,10000,4750,False
+Likes,crossmodal_reassigned,RL/Robotics,25000,4750,False

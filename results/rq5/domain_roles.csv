@@ -1,0 +1,361 @@
+method,mapping,domain,role,count,share,domain_n
+S_C3_Q10,submitted,Audio,Popular Root,1270,0.07210583092034292,17613
+S_C3_Q10,submitted,Audio,Popular Leaf,401,0.02276727417248623,17613
+S_C3_Q10,submitted,Audio,Hidden Root,278,0.01578379605972861,17613
+S_C3_Q10,submitted,Audio,Long Tail,15664,0.8893430988474422,17613
+S_C3_Q10,submitted,CV,Popular Root,3744,0.044258981239582475,84593
+S_C3_Q10,submitted,CV,Popular Leaf,914,0.010804676509876704,84593
+S_C3_Q10,submitted,CV,Hidden Root,951,0.01124206494627215,84593
+S_C3_Q10,submitted,CV,Long Tail,78984,0.9336942773042687,84593
+S_C3_Q10,submitted,Multimodal,Popular Root,2358,0.23131253678634492,10194
+S_C3_Q10,submitted,Multimodal,Popular Leaf,472,0.04630174612517167,10194
+S_C3_Q10,submitted,Multimodal,Hidden Root,645,0.06327251324308417,10194
+S_C3_Q10,submitted,Multimodal,Long Tail,6719,0.6591132038453993,10194
+S_C3_Q10,submitted,NLP,Popular Root,19677,0.08540920632853702,230385
+S_C3_Q10,submitted,NLP,Popular Leaf,5365,0.023287106365431777,230385
+S_C3_Q10,submitted,NLP,Hidden Root,18222,0.07909369099550752,230385
+S_C3_Q10,submitted,NLP,Long Tail,187121,0.8122099963105237,230385
+S_C3_Q10,submitted,RL/Robotics,Popular Root,223,0.04694736842105263,4750
+S_C3_Q10,submitted,RL/Robotics,Popular Leaf,107,0.022526315789473682,4750
+S_C3_Q10,submitted,RL/Robotics,Hidden Root,62,0.013052631578947368,4750
+S_C3_Q10,submitted,RL/Robotics,Long Tail,4358,0.9174736842105263,4750
+S_C3_Q10,crossmodal_reassigned,Audio,Popular Root,1270,0.07210583092034292,17613
+S_C3_Q10,crossmodal_reassigned,Audio,Popular Leaf,401,0.02276727417248623,17613
+S_C3_Q10,crossmodal_reassigned,Audio,Hidden Root,278,0.01578379605972861,17613
+S_C3_Q10,crossmodal_reassigned,Audio,Long Tail,15664,0.8893430988474422,17613
+S_C3_Q10,crossmodal_reassigned,CV,Popular Root,1345,0.07329300855539207,18351
+S_C3_Q10,crossmodal_reassigned,CV,Popular Leaf,192,0.010462645087461173,18351
+S_C3_Q10,crossmodal_reassigned,CV,Hidden Root,210,0.011443518064410659,18351
+S_C3_Q10,crossmodal_reassigned,CV,Long Tail,16604,0.9048008282927361,18351
+S_C3_Q10,crossmodal_reassigned,Multimodal,Popular Root,4757,0.06223507247893663,76436
+S_C3_Q10,crossmodal_reassigned,Multimodal,Popular Leaf,1194,0.015620911612329268,76436
+S_C3_Q10,crossmodal_reassigned,Multimodal,Hidden Root,1386,0.018132816997226436,76436
+S_C3_Q10,crossmodal_reassigned,Multimodal,Long Tail,69099,0.9040111989115077,76436
+S_C3_Q10,crossmodal_reassigned,NLP,Popular Root,19677,0.08540920632853702,230385
+S_C3_Q10,crossmodal_reassigned,NLP,Popular Leaf,5365,0.023287106365431777,230385
+S_C3_Q10,crossmodal_reassigned,NLP,Hidden Root,18222,0.07909369099550752,230385
+S_C3_Q10,crossmodal_reassigned,NLP,Long Tail,187121,0.8122099963105237,230385
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,Popular Root,223,0.04694736842105263,4750
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,Popular Leaf,107,0.022526315789473682,4750
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,Hidden Root,62,0.013052631578947368,4750
+S_C3_Q10,crossmodal_reassigned,RL/Robotics,Long Tail,4358,0.9174736842105263,4750
+Full ModelRank,submitted,Audio,Popular Root,1406,0.07982740021574973,17613
+Full ModelRank,submitted,Audio,Popular Leaf,265,0.01504570487707943,17613
+Full ModelRank,submitted,Audio,Hidden Root,245,0.013910179980696076,17613
+Full ModelRank,submitted,Audio,Long Tail,15697,0.8912167149264748,17613
+Full ModelRank,submitted,CV,Popular Root,4209,0.049755889967254975,84593
+Full ModelRank,submitted,CV,Popular Leaf,449,0.005307767782204201,84593
+Full ModelRank,submitted,CV,Hidden Root,1538,0.01818117338314045,84593
+Full ModelRank,submitted,CV,Long Tail,78397,0.9267551688674004,84593
+Full ModelRank,submitted,Multimodal,Popular Root,2610,0.25603296056503827,10194
+Full ModelRank,submitted,Multimodal,Popular Leaf,220,0.02158132234647832,10194
+Full ModelRank,submitted,Multimodal,Hidden Root,393,0.038552089464390815,10194
+Full ModelRank,submitted,Multimodal,Long Tail,6971,0.6838336276240926,10194
+Full ModelRank,submitted,NLP,Popular Root,22147,0.09613039043340495,230385
+Full ModelRank,submitted,NLP,Popular Leaf,2895,0.012565922260563838,230385
+Full ModelRank,submitted,NLP,Hidden Root,5284,0.022935520975757972,230385
+Full ModelRank,submitted,NLP,Long Tail,200059,0.8683681663302733,230385
+Full ModelRank,submitted,RL/Robotics,Popular Root,272,0.05726315789473684,4750
+Full ModelRank,submitted,RL/Robotics,Popular Leaf,58,0.012210526315789474,4750
+Full ModelRank,submitted,RL/Robotics,Hidden Root,43,0.009052631578947368,4750
+Full ModelRank,submitted,RL/Robotics,Long Tail,4377,0.9214736842105263,4750
+Full ModelRank,crossmodal_reassigned,Audio,Popular Root,1406,0.07982740021574973,17613
+Full ModelRank,crossmodal_reassigned,Audio,Popular Leaf,265,0.01504570487707943,17613
+Full ModelRank,crossmodal_reassigned,Audio,Hidden Root,245,0.013910179980696076,17613
+Full ModelRank,crossmodal_reassigned,Audio,Long Tail,15697,0.8912167149264748,17613
+Full ModelRank,crossmodal_reassigned,CV,Popular Root,1456,0.07934172524658056,18351
+Full ModelRank,crossmodal_reassigned,CV,Popular Leaf,81,0.004413928396272682,18351
+Full ModelRank,crossmodal_reassigned,CV,Hidden Root,221,0.012042940439213123,18351
+Full ModelRank,crossmodal_reassigned,CV,Long Tail,16593,0.9042014059179336,18351
+Full ModelRank,crossmodal_reassigned,Multimodal,Popular Root,5363,0.07016327385001832,76436
+Full ModelRank,crossmodal_reassigned,Multimodal,Popular Leaf,588,0.007692710241247579,76436
+Full ModelRank,crossmodal_reassigned,Multimodal,Hidden Root,1710,0.02237165733424041,76436
+Full ModelRank,crossmodal_reassigned,Multimodal,Long Tail,68775,0.8997723585744937,76436
+Full ModelRank,crossmodal_reassigned,NLP,Popular Root,22147,0.09613039043340495,230385
+Full ModelRank,crossmodal_reassigned,NLP,Popular Leaf,2895,0.012565922260563838,230385
+Full ModelRank,crossmodal_reassigned,NLP,Hidden Root,5284,0.022935520975757972,230385
+Full ModelRank,crossmodal_reassigned,NLP,Long Tail,200059,0.8683681663302733,230385
+Full ModelRank,crossmodal_reassigned,RL/Robotics,Popular Root,272,0.05726315789473684,4750
+Full ModelRank,crossmodal_reassigned,RL/Robotics,Popular Leaf,58,0.012210526315789474,4750
+Full ModelRank,crossmodal_reassigned,RL/Robotics,Hidden Root,43,0.009052631578947368,4750
+Full ModelRank,crossmodal_reassigned,RL/Robotics,Long Tail,4377,0.9214736842105263,4750
+Simplified-MR (legacy),submitted,Audio,Popular Root,1505,0.08544824845284733,17613
+Simplified-MR (legacy),submitted,Audio,Popular Leaf,166,0.009424856639981832,17613
+Simplified-MR (legacy),submitted,Audio,Hidden Root,229,0.013001760063589394,17613
+Simplified-MR (legacy),submitted,Audio,Long Tail,15713,0.8921251348435815,17613
+Simplified-MR (legacy),submitted,CV,Popular Root,4266,0.0504297045854858,84593
+Simplified-MR (legacy),submitted,CV,Popular Leaf,392,0.004633953163973379,84593
+Simplified-MR (legacy),submitted,CV,Hidden Root,1341,0.01585237549206199,84593
+Simplified-MR (legacy),submitted,CV,Long Tail,78594,0.9290839667584788,84593
+Simplified-MR (legacy),submitted,Multimodal,Popular Root,2654,0.26034922503433394,10194
+Simplified-MR (legacy),submitted,Multimodal,Popular Leaf,176,0.017265057877182657,10194
+Simplified-MR (legacy),submitted,Multimodal,Hidden Root,318,0.031194820482636845,10194
+Simplified-MR (legacy),submitted,Multimodal,Long Tail,7046,0.6911908966058465,10194
+Simplified-MR (legacy),submitted,NLP,Popular Root,22640,0.0982702866940122,230385
+Simplified-MR (legacy),submitted,NLP,Popular Leaf,2402,0.010426025999956595,230385
+Simplified-MR (legacy),submitted,NLP,Hidden Root,4519,0.01961499229550535,230385
+Simplified-MR (legacy),submitted,NLP,Long Tail,200824,0.8716886950105258,230385
+Simplified-MR (legacy),submitted,RL/Robotics,Popular Root,281,0.059157894736842104,4750
+Simplified-MR (legacy),submitted,RL/Robotics,Popular Leaf,49,0.01031578947368421,4750
+Simplified-MR (legacy),submitted,RL/Robotics,Hidden Root,31,0.006526315789473684,4750
+Simplified-MR (legacy),submitted,RL/Robotics,Long Tail,4389,0.924,4750
+Simplified-MR (legacy),crossmodal_reassigned,Audio,Popular Root,1505,0.08544824845284733,17613
+Simplified-MR (legacy),crossmodal_reassigned,Audio,Popular Leaf,166,0.009424856639981832,17613
+Simplified-MR (legacy),crossmodal_reassigned,Audio,Hidden Root,229,0.013001760063589394,17613
+Simplified-MR (legacy),crossmodal_reassigned,Audio,Long Tail,15713,0.8921251348435815,17613
+Simplified-MR (legacy),crossmodal_reassigned,CV,Popular Root,1467,0.07994114762138303,18351
+Simplified-MR (legacy),crossmodal_reassigned,CV,Popular Leaf,70,0.0038145060214702198,18351
+Simplified-MR (legacy),crossmodal_reassigned,CV,Hidden Root,200,0.010898588632772056,18351
+Simplified-MR (legacy),crossmodal_reassigned,CV,Long Tail,16614,0.9053457577243746,18351
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,Popular Root,5453,0.07134072949918886,76436
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,Popular Leaf,498,0.006515254592077031,76436
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,Hidden Root,1459,0.019087864357109217,76436
+Simplified-MR (legacy),crossmodal_reassigned,Multimodal,Long Tail,69026,0.9030561515516249,76436
+Simplified-MR (legacy),crossmodal_reassigned,NLP,Popular Root,22640,0.0982702866940122,230385
+Simplified-MR (legacy),crossmodal_reassigned,NLP,Popular Leaf,2402,0.010426025999956595,230385
+Simplified-MR (legacy),crossmodal_reassigned,NLP,Hidden Root,4519,0.01961499229550535,230385
+Simplified-MR (legacy),crossmodal_reassigned,NLP,Long Tail,200824,0.8716886950105258,230385
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,Popular Root,281,0.059157894736842104,4750
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,Popular Leaf,49,0.01031578947368421,4750
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,Hidden Root,31,0.006526315789473684,4750
+Simplified-MR (legacy),crossmodal_reassigned,RL/Robotics,Long Tail,4389,0.924,4750
+Current DerivCount,submitted,Audio,Popular Root,1671,0.09487310509282916,17613
+Current DerivCount,submitted,Audio,Popular Leaf,0,0.0,17613
+Current DerivCount,submitted,Audio,Hidden Root,15942,0.9051268949071708,17613
+Current DerivCount,submitted,Audio,Long Tail,0,0.0,17613
+Current DerivCount,submitted,CV,Popular Root,4658,0.05506365774945918,84593
+Current DerivCount,submitted,CV,Popular Leaf,0,0.0,84593
+Current DerivCount,submitted,CV,Hidden Root,79935,0.9449363422505408,84593
+Current DerivCount,submitted,CV,Long Tail,0,0.0,84593
+Current DerivCount,submitted,Multimodal,Popular Root,2830,0.2776142829115166,10194
+Current DerivCount,submitted,Multimodal,Popular Leaf,0,0.0,10194
+Current DerivCount,submitted,Multimodal,Hidden Root,7364,0.7223857170884834,10194
+Current DerivCount,submitted,Multimodal,Long Tail,0,0.0,10194
+Current DerivCount,submitted,NLP,Popular Root,25042,0.10869631269396879,230385
+Current DerivCount,submitted,NLP,Popular Leaf,0,0.0,230385
+Current DerivCount,submitted,NLP,Hidden Root,205343,0.8913036873060312,230385
+Current DerivCount,submitted,NLP,Long Tail,0,0.0,230385
+Current DerivCount,submitted,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+Current DerivCount,submitted,RL/Robotics,Popular Leaf,0,0.0,4750
+Current DerivCount,submitted,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+Current DerivCount,submitted,RL/Robotics,Long Tail,0,0.0,4750
+Current DerivCount,crossmodal_reassigned,Audio,Popular Root,1671,0.09487310509282916,17613
+Current DerivCount,crossmodal_reassigned,Audio,Popular Leaf,0,0.0,17613
+Current DerivCount,crossmodal_reassigned,Audio,Hidden Root,15942,0.9051268949071708,17613
+Current DerivCount,crossmodal_reassigned,Audio,Long Tail,0,0.0,17613
+Current DerivCount,crossmodal_reassigned,CV,Popular Root,1537,0.08375565364285326,18351
+Current DerivCount,crossmodal_reassigned,CV,Popular Leaf,0,0.0,18351
+Current DerivCount,crossmodal_reassigned,CV,Hidden Root,16814,0.9162443463571468,18351
+Current DerivCount,crossmodal_reassigned,CV,Long Tail,0,0.0,18351
+Current DerivCount,crossmodal_reassigned,Multimodal,Popular Root,5951,0.0778559840912659,76436
+Current DerivCount,crossmodal_reassigned,Multimodal,Popular Leaf,0,0.0,76436
+Current DerivCount,crossmodal_reassigned,Multimodal,Hidden Root,70485,0.9221440159087341,76436
+Current DerivCount,crossmodal_reassigned,Multimodal,Long Tail,0,0.0,76436
+Current DerivCount,crossmodal_reassigned,NLP,Popular Root,25042,0.10869631269396879,230385
+Current DerivCount,crossmodal_reassigned,NLP,Popular Leaf,0,0.0,230385
+Current DerivCount,crossmodal_reassigned,NLP,Hidden Root,205343,0.8913036873060312,230385
+Current DerivCount,crossmodal_reassigned,NLP,Long Tail,0,0.0,230385
+Current DerivCount,crossmodal_reassigned,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+Current DerivCount,crossmodal_reassigned,RL/Robotics,Popular Leaf,0,0.0,4750
+Current DerivCount,crossmodal_reassigned,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+Current DerivCount,crossmodal_reassigned,RL/Robotics,Long Tail,0,0.0,4750
+AllTime DerivCount,submitted,Audio,Popular Root,1671,0.09487310509282916,17613
+AllTime DerivCount,submitted,Audio,Popular Leaf,0,0.0,17613
+AllTime DerivCount,submitted,Audio,Hidden Root,15942,0.9051268949071708,17613
+AllTime DerivCount,submitted,Audio,Long Tail,0,0.0,17613
+AllTime DerivCount,submitted,CV,Popular Root,4658,0.05506365774945918,84593
+AllTime DerivCount,submitted,CV,Popular Leaf,0,0.0,84593
+AllTime DerivCount,submitted,CV,Hidden Root,79935,0.9449363422505408,84593
+AllTime DerivCount,submitted,CV,Long Tail,0,0.0,84593
+AllTime DerivCount,submitted,Multimodal,Popular Root,2830,0.2776142829115166,10194
+AllTime DerivCount,submitted,Multimodal,Popular Leaf,0,0.0,10194
+AllTime DerivCount,submitted,Multimodal,Hidden Root,7364,0.7223857170884834,10194
+AllTime DerivCount,submitted,Multimodal,Long Tail,0,0.0,10194
+AllTime DerivCount,submitted,NLP,Popular Root,25042,0.10869631269396879,230385
+AllTime DerivCount,submitted,NLP,Popular Leaf,0,0.0,230385
+AllTime DerivCount,submitted,NLP,Hidden Root,205343,0.8913036873060312,230385
+AllTime DerivCount,submitted,NLP,Long Tail,0,0.0,230385
+AllTime DerivCount,submitted,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+AllTime DerivCount,submitted,RL/Robotics,Popular Leaf,0,0.0,4750
+AllTime DerivCount,submitted,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+AllTime DerivCount,submitted,RL/Robotics,Long Tail,0,0.0,4750
+AllTime DerivCount,crossmodal_reassigned,Audio,Popular Root,1671,0.09487310509282916,17613
+AllTime DerivCount,crossmodal_reassigned,Audio,Popular Leaf,0,0.0,17613
+AllTime DerivCount,crossmodal_reassigned,Audio,Hidden Root,15942,0.9051268949071708,17613
+AllTime DerivCount,crossmodal_reassigned,Audio,Long Tail,0,0.0,17613
+AllTime DerivCount,crossmodal_reassigned,CV,Popular Root,1537,0.08375565364285326,18351
+AllTime DerivCount,crossmodal_reassigned,CV,Popular Leaf,0,0.0,18351
+AllTime DerivCount,crossmodal_reassigned,CV,Hidden Root,16814,0.9162443463571468,18351
+AllTime DerivCount,crossmodal_reassigned,CV,Long Tail,0,0.0,18351
+AllTime DerivCount,crossmodal_reassigned,Multimodal,Popular Root,5951,0.0778559840912659,76436
+AllTime DerivCount,crossmodal_reassigned,Multimodal,Popular Leaf,0,0.0,76436
+AllTime DerivCount,crossmodal_reassigned,Multimodal,Hidden Root,70485,0.9221440159087341,76436
+AllTime DerivCount,crossmodal_reassigned,Multimodal,Long Tail,0,0.0,76436
+AllTime DerivCount,crossmodal_reassigned,NLP,Popular Root,25042,0.10869631269396879,230385
+AllTime DerivCount,crossmodal_reassigned,NLP,Popular Leaf,0,0.0,230385
+AllTime DerivCount,crossmodal_reassigned,NLP,Hidden Root,205343,0.8913036873060312,230385
+AllTime DerivCount,crossmodal_reassigned,NLP,Long Tail,0,0.0,230385
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,Popular Leaf,0,0.0,4750
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+AllTime DerivCount,crossmodal_reassigned,RL/Robotics,Long Tail,0,0.0,4750
+EventValue,submitted,Audio,Popular Root,1671,0.09487310509282916,17613
+EventValue,submitted,Audio,Popular Leaf,0,0.0,17613
+EventValue,submitted,Audio,Hidden Root,15942,0.9051268949071708,17613
+EventValue,submitted,Audio,Long Tail,0,0.0,17613
+EventValue,submitted,CV,Popular Root,4658,0.05506365774945918,84593
+EventValue,submitted,CV,Popular Leaf,0,0.0,84593
+EventValue,submitted,CV,Hidden Root,79935,0.9449363422505408,84593
+EventValue,submitted,CV,Long Tail,0,0.0,84593
+EventValue,submitted,Multimodal,Popular Root,2830,0.2776142829115166,10194
+EventValue,submitted,Multimodal,Popular Leaf,0,0.0,10194
+EventValue,submitted,Multimodal,Hidden Root,7364,0.7223857170884834,10194
+EventValue,submitted,Multimodal,Long Tail,0,0.0,10194
+EventValue,submitted,NLP,Popular Root,25042,0.10869631269396879,230385
+EventValue,submitted,NLP,Popular Leaf,0,0.0,230385
+EventValue,submitted,NLP,Hidden Root,205343,0.8913036873060312,230385
+EventValue,submitted,NLP,Long Tail,0,0.0,230385
+EventValue,submitted,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+EventValue,submitted,RL/Robotics,Popular Leaf,0,0.0,4750
+EventValue,submitted,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+EventValue,submitted,RL/Robotics,Long Tail,0,0.0,4750
+EventValue,crossmodal_reassigned,Audio,Popular Root,1671,0.09487310509282916,17613
+EventValue,crossmodal_reassigned,Audio,Popular Leaf,0,0.0,17613
+EventValue,crossmodal_reassigned,Audio,Hidden Root,15942,0.9051268949071708,17613
+EventValue,crossmodal_reassigned,Audio,Long Tail,0,0.0,17613
+EventValue,crossmodal_reassigned,CV,Popular Root,1537,0.08375565364285326,18351
+EventValue,crossmodal_reassigned,CV,Popular Leaf,0,0.0,18351
+EventValue,crossmodal_reassigned,CV,Hidden Root,16814,0.9162443463571468,18351
+EventValue,crossmodal_reassigned,CV,Long Tail,0,0.0,18351
+EventValue,crossmodal_reassigned,Multimodal,Popular Root,5951,0.0778559840912659,76436
+EventValue,crossmodal_reassigned,Multimodal,Popular Leaf,0,0.0,76436
+EventValue,crossmodal_reassigned,Multimodal,Hidden Root,70485,0.9221440159087341,76436
+EventValue,crossmodal_reassigned,Multimodal,Long Tail,0,0.0,76436
+EventValue,crossmodal_reassigned,NLP,Popular Root,25042,0.10869631269396879,230385
+EventValue,crossmodal_reassigned,NLP,Popular Leaf,0,0.0,230385
+EventValue,crossmodal_reassigned,NLP,Hidden Root,205343,0.8913036873060312,230385
+EventValue,crossmodal_reassigned,NLP,Long Tail,0,0.0,230385
+EventValue,crossmodal_reassigned,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+EventValue,crossmodal_reassigned,RL/Robotics,Popular Leaf,0,0.0,4750
+EventValue,crossmodal_reassigned,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+EventValue,crossmodal_reassigned,RL/Robotics,Long Tail,0,0.0,4750
+Vanilla PageRank,submitted,Audio,Popular Root,1671,0.09487310509282916,17613
+Vanilla PageRank,submitted,Audio,Popular Leaf,0,0.0,17613
+Vanilla PageRank,submitted,Audio,Hidden Root,15942,0.9051268949071708,17613
+Vanilla PageRank,submitted,Audio,Long Tail,0,0.0,17613
+Vanilla PageRank,submitted,CV,Popular Root,4658,0.05506365774945918,84593
+Vanilla PageRank,submitted,CV,Popular Leaf,0,0.0,84593
+Vanilla PageRank,submitted,CV,Hidden Root,79935,0.9449363422505408,84593
+Vanilla PageRank,submitted,CV,Long Tail,0,0.0,84593
+Vanilla PageRank,submitted,Multimodal,Popular Root,2830,0.2776142829115166,10194
+Vanilla PageRank,submitted,Multimodal,Popular Leaf,0,0.0,10194
+Vanilla PageRank,submitted,Multimodal,Hidden Root,7364,0.7223857170884834,10194
+Vanilla PageRank,submitted,Multimodal,Long Tail,0,0.0,10194
+Vanilla PageRank,submitted,NLP,Popular Root,25042,0.10869631269396879,230385
+Vanilla PageRank,submitted,NLP,Popular Leaf,0,0.0,230385
+Vanilla PageRank,submitted,NLP,Hidden Root,205343,0.8913036873060312,230385
+Vanilla PageRank,submitted,NLP,Long Tail,0,0.0,230385
+Vanilla PageRank,submitted,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+Vanilla PageRank,submitted,RL/Robotics,Popular Leaf,0,0.0,4750
+Vanilla PageRank,submitted,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+Vanilla PageRank,submitted,RL/Robotics,Long Tail,0,0.0,4750
+Vanilla PageRank,crossmodal_reassigned,Audio,Popular Root,1671,0.09487310509282916,17613
+Vanilla PageRank,crossmodal_reassigned,Audio,Popular Leaf,0,0.0,17613
+Vanilla PageRank,crossmodal_reassigned,Audio,Hidden Root,15942,0.9051268949071708,17613
+Vanilla PageRank,crossmodal_reassigned,Audio,Long Tail,0,0.0,17613
+Vanilla PageRank,crossmodal_reassigned,CV,Popular Root,1537,0.08375565364285326,18351
+Vanilla PageRank,crossmodal_reassigned,CV,Popular Leaf,0,0.0,18351
+Vanilla PageRank,crossmodal_reassigned,CV,Hidden Root,16814,0.9162443463571468,18351
+Vanilla PageRank,crossmodal_reassigned,CV,Long Tail,0,0.0,18351
+Vanilla PageRank,crossmodal_reassigned,Multimodal,Popular Root,5951,0.0778559840912659,76436
+Vanilla PageRank,crossmodal_reassigned,Multimodal,Popular Leaf,0,0.0,76436
+Vanilla PageRank,crossmodal_reassigned,Multimodal,Hidden Root,70485,0.9221440159087341,76436
+Vanilla PageRank,crossmodal_reassigned,Multimodal,Long Tail,0,0.0,76436
+Vanilla PageRank,crossmodal_reassigned,NLP,Popular Root,25042,0.10869631269396879,230385
+Vanilla PageRank,crossmodal_reassigned,NLP,Popular Leaf,0,0.0,230385
+Vanilla PageRank,crossmodal_reassigned,NLP,Hidden Root,205343,0.8913036873060312,230385
+Vanilla PageRank,crossmodal_reassigned,NLP,Long Tail,0,0.0,230385
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,Popular Leaf,0,0.0,4750
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,Hidden Root,4420,0.9305263157894736,4750
+Vanilla PageRank,crossmodal_reassigned,RL/Robotics,Long Tail,0,0.0,4750
+Downloads,submitted,Audio,Popular Root,1671,0.09487310509282916,17613
+Downloads,submitted,Audio,Popular Leaf,0,0.0,17613
+Downloads,submitted,Audio,Hidden Root,0,0.0,17613
+Downloads,submitted,Audio,Long Tail,15942,0.9051268949071708,17613
+Downloads,submitted,CV,Popular Root,4658,0.05506365774945918,84593
+Downloads,submitted,CV,Popular Leaf,0,0.0,84593
+Downloads,submitted,CV,Hidden Root,0,0.0,84593
+Downloads,submitted,CV,Long Tail,79935,0.9449363422505408,84593
+Downloads,submitted,Multimodal,Popular Root,2830,0.2776142829115166,10194
+Downloads,submitted,Multimodal,Popular Leaf,0,0.0,10194
+Downloads,submitted,Multimodal,Hidden Root,0,0.0,10194
+Downloads,submitted,Multimodal,Long Tail,7364,0.7223857170884834,10194
+Downloads,submitted,NLP,Popular Root,25042,0.10869631269396879,230385
+Downloads,submitted,NLP,Popular Leaf,0,0.0,230385
+Downloads,submitted,NLP,Hidden Root,0,0.0,230385
+Downloads,submitted,NLP,Long Tail,205343,0.8913036873060312,230385
+Downloads,submitted,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+Downloads,submitted,RL/Robotics,Popular Leaf,0,0.0,4750
+Downloads,submitted,RL/Robotics,Hidden Root,0,0.0,4750
+Downloads,submitted,RL/Robotics,Long Tail,4420,0.9305263157894736,4750
+Downloads,crossmodal_reassigned,Audio,Popular Root,1671,0.09487310509282916,17613
+Downloads,crossmodal_reassigned,Audio,Popular Leaf,0,0.0,17613
+Downloads,crossmodal_reassigned,Audio,Hidden Root,0,0.0,17613
+Downloads,crossmodal_reassigned,Audio,Long Tail,15942,0.9051268949071708,17613
+Downloads,crossmodal_reassigned,CV,Popular Root,1537,0.08375565364285326,18351
+Downloads,crossmodal_reassigned,CV,Popular Leaf,0,0.0,18351
+Downloads,crossmodal_reassigned,CV,Hidden Root,0,0.0,18351
+Downloads,crossmodal_reassigned,CV,Long Tail,16814,0.9162443463571468,18351
+Downloads,crossmodal_reassigned,Multimodal,Popular Root,5951,0.0778559840912659,76436
+Downloads,crossmodal_reassigned,Multimodal,Popular Leaf,0,0.0,76436
+Downloads,crossmodal_reassigned,Multimodal,Hidden Root,0,0.0,76436
+Downloads,crossmodal_reassigned,Multimodal,Long Tail,70485,0.9221440159087341,76436
+Downloads,crossmodal_reassigned,NLP,Popular Root,25042,0.10869631269396879,230385
+Downloads,crossmodal_reassigned,NLP,Popular Leaf,0,0.0,230385
+Downloads,crossmodal_reassigned,NLP,Hidden Root,0,0.0,230385
+Downloads,crossmodal_reassigned,NLP,Long Tail,205343,0.8913036873060312,230385
+Downloads,crossmodal_reassigned,RL/Robotics,Popular Root,330,0.06947368421052631,4750
+Downloads,crossmodal_reassigned,RL/Robotics,Popular Leaf,0,0.0,4750
+Downloads,crossmodal_reassigned,RL/Robotics,Hidden Root,0,0.0,4750
+Downloads,crossmodal_reassigned,RL/Robotics,Long Tail,4420,0.9305263157894736,4750
+Likes,submitted,Audio,Popular Root,1137,0.06455459035939363,17613
+Likes,submitted,Audio,Popular Leaf,534,0.03031851473343553,17613
+Likes,submitted,Audio,Hidden Root,1588,0.09016067677283825,17613
+Likes,submitted,Audio,Long Tail,14354,0.8149662181343326,17613
+Likes,submitted,CV,Popular Root,3401,0.040204272221105765,84593
+Likes,submitted,CV,Popular Leaf,1257,0.01485938552835341,84593
+Likes,submitted,CV,Hidden Root,10626,0.1256132304091355,84593
+Likes,submitted,CV,Long Tail,69309,0.8193231118414053,84593
+Likes,submitted,Multimodal,Popular Root,2070,0.20306062389640966,10194
+Likes,submitted,Multimodal,Popular Leaf,760,0.07455365901510692,10194
+Likes,submitted,Multimodal,Hidden Root,1409,0.13821855993721796,10194
+Likes,submitted,Multimodal,Long Tail,5955,0.5841671571512654,10194
+Likes,submitted,NLP,Popular Root,16335,0.07090305358421772,230385
+Likes,submitted,NLP,Popular Leaf,8707,0.03779325910975107,230385
+Likes,submitted,NLP,Hidden Root,25943,0.1126071575840441,230385
+Likes,submitted,NLP,Long Tail,179400,0.7786965297219871,230385
+Likes,submitted,RL/Robotics,Popular Root,156,0.032842105263157895,4750
+Likes,submitted,RL/Robotics,Popular Leaf,174,0.03663157894736842,4750
+Likes,submitted,RL/Robotics,Hidden Root,176,0.03705263157894737,4750
+Likes,submitted,RL/Robotics,Long Tail,4244,0.8934736842105263,4750
+Likes,crossmodal_reassigned,Audio,Popular Root,1137,0.06455459035939363,17613
+Likes,crossmodal_reassigned,Audio,Popular Leaf,534,0.03031851473343553,17613
+Likes,crossmodal_reassigned,Audio,Hidden Root,1588,0.09016067677283825,17613
+Likes,crossmodal_reassigned,Audio,Long Tail,14354,0.8149662181343326,17613
+Likes,crossmodal_reassigned,CV,Popular Root,1155,0.06293934935425863,18351
+Likes,crossmodal_reassigned,CV,Popular Leaf,382,0.020816304288594628,18351
+Likes,crossmodal_reassigned,CV,Hidden Root,1196,0.0651735600239769,18351
+Likes,crossmodal_reassigned,CV,Long Tail,15618,0.8510707863331699,18351
+Likes,crossmodal_reassigned,Multimodal,Popular Root,4316,0.056465539798000945,76436
+Likes,crossmodal_reassigned,Multimodal,Popular Leaf,1635,0.021390444293264952,76436
+Likes,crossmodal_reassigned,Multimodal,Hidden Root,10839,0.14180490868177298,76436
+Likes,crossmodal_reassigned,Multimodal,Long Tail,59646,0.7803391072269611,76436
+Likes,crossmodal_reassigned,NLP,Popular Root,16335,0.07090305358421772,230385
+Likes,crossmodal_reassigned,NLP,Popular Leaf,8707,0.03779325910975107,230385
+Likes,crossmodal_reassigned,NLP,Hidden Root,25943,0.1126071575840441,230385
+Likes,crossmodal_reassigned,NLP,Long Tail,179400,0.7786965297219871,230385
+Likes,crossmodal_reassigned,RL/Robotics,Popular Root,156,0.032842105263157895,4750
+Likes,crossmodal_reassigned,RL/Robotics,Popular Leaf,174,0.03663157894736842,4750
+Likes,crossmodal_reassigned,RL/Robotics,Hidden Root,176,0.03705263157894737,4750
+Likes,crossmodal_reassigned,RL/Robotics,Long Tail,4244,0.8934736842105263,4750
