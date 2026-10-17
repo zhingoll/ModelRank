@@ -1,4 +1,4 @@
-"""Rebuild the frozen 20-month core score panel without the original workspace."""
+"""Compute the 20-month core score panel from frozen monthly inputs."""
 import argparse
 import gc
 from pathlib import Path

@@ -1,0 +1,12 @@
+[
+  {
+    "new_pair_id": "PAIR-56CEE6DE4B43",
+    "replaces": "P036",
+    "task": "audio_classification"
+  },
+  {
+    "new_pair_id": "PAIR-EE2BA95A71FD",
+    "replaces": "P091",
+    "task": "automatic_speech_recognition"
+  }
+]

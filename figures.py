@@ -1,4 +1,4 @@
-"""Deliver the seven manuscript figures: reuse one schematic, redraw six plots.
+"""Generate six study plots and include the study overview schematic.
 
 Install numpy, pandas and matplotlib. Run:
     python figures.py --output /path/to/NEW/directory
@@ -6,13 +6,13 @@ Install numpy, pandas and matplotlib. Run:
 To redraw only the six statistical figures:
     python figures.py --statistical-only --output /path/to/NEW/directory
 
-This is figure reproduction, not a rerun of the underlying experiments.
+Figures use the plotting inputs in data/figures/.
 The scatter input retains the original 7,000 LT sample (seed 42), all other
 roles, inset points and labelled cases, with original draw order and full-
 population P90 thresholds. The trajectory input has 58 observed model-months;
-no missing month is interpolated. Figure 1 is a manually authored schematic:
-its checksum-verified authoritative PDF is copied unchanged, NOT regenerated.
-The editable SVG is supplied alongside it but is not converted by this command.
+observed points are plotted directly. Figure 1 is a manually authored schematic:
+its reference PDF is verified and copied unchanged. The editable SVG is also
+included in the plotting inputs.
 Existing output directories are refused. Inputs are checked before writing.
 """
 from __future__ import annotations
@@ -47,6 +47,17 @@ def save(fig, stem):
 save_rq1 = save
 
 
+def matches_input_digest(name, raw, digest):
+    if hashlib.sha256(raw).hexdigest() == digest:
+        return True
+    # Git exports/checkouts may change text line endings, but not content.
+    if Path(name).suffix in {'.csv', '.svg'}:
+        lf = raw.replace(b'\r\n', b'\n')
+        return any(hashlib.sha256(data).hexdigest() == digest
+                   for data in (lf, lf.replace(b'\n', b'\r\n')))
+    return False
+
+
 def validate_inputs():
     manifest = json.loads((DATA / 'inputs.json').read_text(encoding='utf-8'))
     if SCHEMATIC not in manifest['sha256']:
@@ -55,7 +66,7 @@ def validate_inputs():
         path = DATA / name
         if path.parent != DATA or not path.is_file():
             raise ValueError('Missing or invalid plotting input: ' + name)
-        if hashlib.sha256(path.read_bytes()).hexdigest() != digest:
+        if not matches_input_digest(name, path.read_bytes(), digest):
             raise ValueError('Frozen plotting input checksum mismatch: ' + name)
     frame = pd.read_csv(DATA / 'trajectories.csv', float_precision='round_trip')
     expected = {'nvidia/Minitron-4B-Base': 20,

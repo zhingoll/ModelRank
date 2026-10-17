@@ -1,11 +1,11 @@
-"""Standalone frozen external-validation statistics; never writes input files.
+"""Compute external-validation statistics from model labels, scores and votes.
 
 Python 3.9+, numpy; pandas and pyarrow only for Space parquet input.
-CLI prints JSON to stdout. No raw expert returns or laboratory imports.
+The command-line interface prints JSON to stdout.
 Space --replicates 10000 reproduces percentile intervals and paired inference;
---replicates 0 computes point estimates only, explicitly without inference.
+--replicates 0 computes point estimates.
 Expert CSV requires anonymous pair_id, three vote counts, missing_judgments,
-majority_outcome and seven method-direction columns. Keep pending data private.
+majority_outcome and seven method-direction columns.
 """
 
 from __future__ import annotations
@@ -496,6 +496,15 @@ def space_metrics(model_ids, states, scores, replicates=0, seed=20260812):
     return dict(method_metrics=rows, scope='point estimates only; no bootstrap inference')
 
 
+def public_space_result(result):
+    """Select distinct label regimes and ModelRank-reference comparisons."""
+    return {
+        key: [row for row in value if row['regime'] != 'undecidable-excluded']
+        if isinstance(value, list) else value
+        for key, value in result.items() if key != 'all_pairwise_differences'
+    }
+
+
 def main():
     import argparse
     import csv
@@ -504,12 +513,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
     space = sub.add_parser('space')
-    space.add_argument('--labels', type=Path, required=True, help='corrected model JSONL ledger')
+    space.add_argument('--labels', type=Path, required=True, help='model outcome labels in JSONL format')
     space.add_argument('--holdout', type=Path, required=True, help='frozen ordered IDs, UTF-8 text')
-    space.add_argument('--scores', type=Path, required=True, help='final corrected score parquet')
+    space.add_argument('--scores', type=Path, required=True, help='method scores in Parquet format')
     space.add_argument('--replicates', type=int, default=0)
     expert = sub.add_parser('expert')
-    expert.add_argument('--votes', type=Path, required=True, help='anonymous count CSV; requires permission')
+    expert.add_argument('--votes', type=Path, required=True, help='anonymous aggregate vote counts in CSV format')
     args = parser.parse_args()
     if args.command == 'expert':
         with args.votes.open(encoding='utf-8-sig', newline='') as f:
@@ -531,6 +540,7 @@ def main():
         selected = panel.set_index('model_id').loc[ids]
         result = space_metrics(ids, [r['state'] for r in ledger],
                                {m: selected[m].to_numpy(float) for m in METHODS}, args.replicates)
+        result = public_space_result(result)
     def clean(value):
         if isinstance(value, dict):
             return {k: clean(v) for k, v in value.items()}

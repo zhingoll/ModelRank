@@ -1,0 +1,241 @@
+﻿pair_id,votes_item_1,votes_item_2,votes_tie,missing_judgments,majority_outcome,s3_direction,full_modelrank_direction,alltime_derivcount_direction,current_derivcount_direction,vanilla_pagerank_direction,downloads_direction,likes_direction,assigned_comparator,original_relation,final_relation,task
+P001,0,1,2,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P002,0,3,0,0,item_2,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P003,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P004,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P005,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P006,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,item_2,Full ModelRank,opposite_order,opposite_order,audio_classification
+P007,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P008,0,3,0,0,item_2,item_2,item_1,item_2,tie,item_2,item_1,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P009,3,0,0,0,item_1,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P010,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,audio_classification
+P011,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P012,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,tie,item_1,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P013,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,item_2,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P014,1,0,2,0,tie,item_2,item_2,tie,tie,tie,item_2,item_2,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P015,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P016,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P017,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P018,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P019,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P020,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P021,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P022,1,0,2,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P023,1,0,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P024,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P025,0,1,2,0,tie,item_1,item_2,item_1,tie,item_1,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P026,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P027,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P028,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P029,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P030,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,audio_classification
+P031,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P032,1,0,2,0,tie,item_2,item_2,tie,tie,tie,item_2,item_2,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P033,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P034,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,item_2,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P035,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P037,0,1,2,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P038,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P039,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,item_2,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P040,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+P041,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,audio_classification
+P042,0,3,0,0,item_2,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,audio_classification
+P043,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,audio_classification
+P044,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,audio_classification
+P045,3,0,0,0,item_1,item_2,item_1,item_2,tie,item_2,item_1,tie,Downloads,opposite_order,opposite_order,audio_classification
+P046,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,audio_classification
+P047,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,audio_classification
+P048,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,audio_classification
+P049,0,3,0,0,item_2,item_2,item_2,item_2,tie,item_2,item_1,tie,Downloads,opposite_order,opposite_order,audio_classification
+P050,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,tie,tie,Downloads,s3_order_baseline_tie,comparator_tie,audio_classification
+P051,1,0,2,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P052,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P053,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P054,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P055,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P056,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P057,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P058,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P059,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P060,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,audio_classification
+P061,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P062,0,3,0,0,item_2,item_1,item_2,item_1,tie,item_1,item_2,item_2,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P063,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P064,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,item_2,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P065,0,3,0,0,item_2,item_2,item_1,item_2,tie,item_2,item_1,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P066,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P067,0,1,2,0,tie,item_2,item_1,item_2,tie,item_2,item_1,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P068,0,1,2,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P069,0,3,0,0,item_2,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P070,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,automatic_speech_recognition
+P071,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P072,0,1,2,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P073,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P074,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P075,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P076,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P077,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,item_1,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P078,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P079,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P080,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P081,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P082,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P083,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P084,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P085,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P086,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,item_2,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P087,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P088,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P089,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P090,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P092,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P093,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P094,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,item_2,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P095,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P096,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P097,0,2,1,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P098,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P099,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P100,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P101,0,3,0,0,item_2,item_2,item_1,item_2,tie,item_2,tie,tie,Downloads,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P102,1,0,2,0,tie,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P103,3,0,0,0,item_1,item_2,item_2,tie,tie,item_2,tie,tie,Downloads,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P104,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P105,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P106,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P107,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P108,3,0,0,0,item_1,item_2,item_1,tie,tie,item_2,item_1,tie,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P109,0,2,1,0,item_2,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P110,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,automatic_speech_recognition
+P111,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P112,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P113,2,0,1,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P114,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P115,1,0,2,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P116,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P117,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P118,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P119,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P120,2,0,1,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition
+P121,2,0,1,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P122,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P123,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P124,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P125,0,0,3,0,tie,item_1,item_2,item_1,tie,item_1,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P126,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P127,0,3,0,0,item_2,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P128,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P129,0,3,0,0,item_2,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P130,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P131,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P132,0,3,0,0,item_2,item_2,item_1,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P133,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P134,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,item_1,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P135,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,item_1,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P136,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,item_1,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P137,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P138,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P139,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P140,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P141,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P142,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P143,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P144,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P145,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P146,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P147,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P148,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P149,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P150,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,text_classification
+P151,0,0,3,0,tie,item_1,item_1,tie,tie,tie,tie,item_1,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P152,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P153,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P154,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P155,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P156,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P157,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,item_1,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P158,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P159,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P160,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,text_classification
+P161,0,0,3,0,tie,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P162,0,0,3,0,tie,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P163,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,text_classification
+P164,0,0,3,0,tie,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P165,0,0,3,0,tie,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P166,0,0,3,0,tie,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P167,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,text_classification
+P168,0,0,3,0,tie,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P169,1,0,1,1,unresolved,item_2,item_1,item_2,tie,item_2,item_1,tie,Downloads,opposite_order,opposite_order,text_classification
+P170,0,0,3,0,tie,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,text_classification
+P171,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P172,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P173,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P174,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P175,2,0,1,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P176,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P177,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P178,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P179,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P180,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,text_classification
+P181,3,0,0,0,item_1,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P182,2,0,1,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P183,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P184,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P185,0,3,0,0,item_2,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P186,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P187,3,0,0,0,item_1,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P188,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P189,3,0,0,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P190,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,token_classification
+P191,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P192,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P193,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,item_2,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P194,1,0,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P195,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P196,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P197,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P198,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P199,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P200,1,0,2,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,AllTime DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P201,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,item_1,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P202,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P203,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P204,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P205,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P206,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P207,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P208,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P209,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P210,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Current DerivCount,s3_order_baseline_tie,comparator_tie,token_classification
+P211,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P212,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P213,0,2,1,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P214,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P215,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P216,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P217,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,item_2,item_2,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P218,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P219,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P220,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,item_1,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,token_classification
+P221,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,token_classification
+P222,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,token_classification
+P223,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,token_classification
+P224,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,token_classification
+P225,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,token_classification
+P226,0,0,3,0,tie,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,token_classification
+P227,1,0,2,0,tie,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,token_classification
+P228,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,token_classification
+P229,0,3,0,0,item_2,item_2,item_2,item_2,tie,item_2,tie,tie,Downloads,s3_order_baseline_tie,comparator_tie,token_classification
+P230,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,token_classification
+P231,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P232,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P233,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P234,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P235,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P236,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P237,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P238,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P239,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+P240,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
+PAIR-56CEE6DE4B43,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,audio_classification
+PAIR-EE2BA95A71FD,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Vanilla PageRank,s3_order_baseline_tie,comparator_tie,automatic_speech_recognition

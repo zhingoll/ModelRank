@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mini LLM Chat</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+<!-- CSS embutido -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .chat-container {
+        background: white;
+        padding: 20px;
+        width: 400px;
+        max-width: 90%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .chat-box {
+        flex-grow: 1;
+        border: 1px solid #ccc;
+        padding: 10px;
+        overflow-y: auto;
+        height: 300px;
+        border-radius: 5px;
+        background: #fafafa;
+      }
+
+      .message {
+        margin-bottom: 10px;
+        line-height: 1.4;
+      }
+
+      .message.user {
+        text-align: right;
+        color: #2b7a0b;
+      }
+
+      .message.llm {
+        text-align: left;
+        color: #333;
+      }
+
+      .input-container {
+        display: flex;
+        gap: 5px;
+      }
+
+      #user-input {
+        flex-grow: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      #send-btn {
+        padding: 8px 12px;
+        background: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #send-btn:hover {
+        background: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <h1>🧠 Mini LLM Chat</h1>
+
+      <div id="chat-box" class="chat-box"></div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Digite sua pergunta..."
+          autocomplete="off"
+        />
+        <button id="send-btn">Enviar</button>
+      </div>
+    </div>
+
+    <!-- JavaScript embutido -->
+    <script>
+      const chatBox = document.getElementById("chat-box");
+      const userInput = document.getElementById("user-input");
+      const sendBtn = document.getElementById("send-btn");
+
+      // Modelo público da Hugging Face (pode trocar por outro)
+      const HF_API_URL =
+        "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct";
+
+      // 🔑 Coloque seu token Hugging Face aqui:
+      const HF_API_TOKEN = "[REDACTED_HF_TOKEN]";
+async function sendMessage() {
+        const text = userInput.value.trim();
+        if (!text) return;
+
+        addMessage(text, "user");
+        userInput.value = "";
+
+        addMessage("...", "llm");
+        const placeholder = chatBox.lastChild;
+
+        try {
+          const response = await fetch(HF_API_URL, {
+            method: "POST",
+            headers: {
+              Authorization: `Bearer ${HF_API_TOKEN}`,
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              inputs: text,
+              parameters: { max_new_tokens: 200, temperature: 0.7 },
+            }),
+          });
+
+          const result = await response.json();
+          console.log(result);
+
+          if (result.error) {
+            placeholder.textContent = "⚠️ Erro: " + result.error;
+          } else {
+            placeholder.textContent =
+              result[0]?.generated_text?.trim() || "❌ Sem resposta do modelo.";
+          }
+        } catch (err) {
+          console.error(err);
+          placeholder.textContent = "❌ Erro de conexão com o modelo.";
+        }
+
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      function addMessage(text, sender) {
+        const msg = document.createElement("div");
+        msg.classList.add("message", sender);
+        msg.textContent = text;
+        chatBox.appendChild(msg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }
+
+      sendBtn.addEventListener("click", sendMessage);
+      userInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") sendMessage();
+      });
+    </script>
+  </body>
+</html>

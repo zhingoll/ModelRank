@@ -1,13 +1,12 @@
-"""Refit all final Hidden-Root effects from the frozen matched-sample asset.
+"""Compute subsequent Hidden Root outcome differences from matched observations.
 
-Requires NumPy, pandas, SciPy and PyArrow. No lab imports, generators or network.
-Example (paths relative to the slim package):
-  python -B hr.py --pairs ../data_assets/hr/matched_pairs.parquet \
-      --output ../private_runs/hr_reproduced --verify results/hr
+Requires NumPy, pandas, SciPy and PyArrow. From the repository root:
+  python -B hr.py --pairs assets/hr/matched_pairs.parquet \
+      --output ../generated/hr --verify results/hr
 
-This starts AFTER the final post-diagnostic same-origin-Likes restriction and
-outcome materialization; it does not reconstruct matching or raw monthly data.
-Associations are observational. PR is role-defined; active-parent is graph-internal.
+The input contains matched pairs restricted by same-origin Likes and their
+observed outcomes. Analyses estimate observational associations. Popular Root
+status is role-defined; active-parent records a new direct child in the graph.
 """
 from __future__ import annotations
 

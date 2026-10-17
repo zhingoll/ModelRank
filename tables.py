@@ -1,9 +1,8 @@
-"""Render paper-labelled CSV views from frozen results, not raw experiments.
+"""Export CSV views for paper tables and evaluation results.
 
 Run: python tables.py --output /new/directory
-Uses only the Python standard library. Inputs are never modified. CSV views
-retain full stored precision, so they are not facsimiles of typeset tables.
-No score, matching, outcome, confidence interval or p-value is re-estimated.
+Uses the Python standard library. Views retain stored numeric precision and
+statistical results. The output index identifies source files and table scope.
 """
 import argparse
 import csv
@@ -95,7 +94,7 @@ def build_views(root=HERE):
         direct(label, ts('joint_control_39_bh'), metric=metrics)
         if len(views[label]['rows']) != 78:
             raise ValueError('Expected 39 joint cells per structural metric')
-        views[label]['note'] = 'BH is separate for each of four outcomes; retain adverse cells.'
+        views[label]['note'] = 'All 39 cells retained; BH correction is separate for each of four outcomes.'
 
     means = read(ts('rq2_method_means_long'))
     for label, methods in [
@@ -129,13 +128,28 @@ def build_views(root=HERE):
 
     direct('rq2-spaces', 'results/space/method_metrics.csv')
     direct('space-reference-contrasts', 'results/space/reference_contrasts.csv')
-    direct('space-all-pairs', 'results/space/all_pairwise_differences.csv')
-    views['rq2-spaces']['note'] = 'All three regimes retained; the primary regime is not the whole file.'
-    views['space-reference-contrasts']['note'] = 'Seven-reference correction family; do not combine with the 28-pair family.'
-    views['space-all-pairs']['note'] = 'Separate all-28-pair correction family.'
-    direct('rq2-expert', ts('expert_method_results'))
-    for name in ('paired_comparisons', 'strata_results', 'sensitivity_results'):
-        direct('expert-' + name, ts('expert_' + name))
+    views['rq2-spaces']['note'] = 'Three distinct label regimes; confirmed-only is primary. Collection failures are excluded.'
+    views['space-reference-contrasts']['note'] = 'Holm correction across seven ModelRank-reference contrasts per metric and regime.'
+    cohorts = []
+    for cohort in ('candidate240', 'original240', 'exclusion238'):
+        path = 'results/expert/' + cohort + '_pooled.json'
+        raw = (root / path).read_bytes()
+        sources[path] = hashlib.sha256(raw).hexdigest()
+        pooled = json.loads(raw)
+        counts = pooled['majority_outcome_counts']
+        cohorts.append(dict(cohort=cohort, total_pairs=pooled['total_pairs'],
+                            decisive_pairs=counts.get('item_1', 0) + counts.get('item_2', 0),
+                            expert_ties=counts.get('tie', 0), unresolved=counts.get('unresolved', 0)))
+        if cohort == 'candidate240':
+            add('rq2-expert', pooled['method_results'],
+                'Primary 240-pair cohort: agreement uses 137 decisive expert majorities. S3 is ModelRank; Full ModelRank is MTPR.')
+    add('expert-cohort-summary', cohorts, 'Primary analysis and original/exclusion sensitivity populations.')
+    for name, suffix in (('paired_comparisons', 'paired'), ('strata_results', 'strata'),
+                         ('sensitivity_results', 'tie_sensitivity')):
+        direct('expert-' + name, 'results/expert/candidate240_' + suffix + '.csv')
+    for label, filename in (('overlap', 'set_overlap'), ('boundary', 'lift_and_boundary_sensitivity'),
+                            ('comparisons', 'comparison_sensitivity')):
+        direct('top-decile-' + label, 'results/top_decile/' + filename + '.csv')
 
     direct('rq3-characteristics', ts('role_characteristics_current'))
     direct('hr-deriv-types', ts('role_type_composition'), method=S3)
@@ -220,7 +234,7 @@ def render(output, root=HERE):
     if output == root or root in output.parents:
         raise ValueError('Keep generated views outside the replication package')
     views, sources = build_views(root)
-    index = {'mode': 'saved-result rendering; NOT raw statistical recomputation',
+    index = {'mode': 'CSV export of stored statistical results',
              'precision': 'Full stored numeric precision; no typeset rounding or significance relabelling.',
              'sources_sha256': sources, 'views': {},
              'not_rendered': {
@@ -252,7 +266,7 @@ def main():
         print('\n'.join(views))
     elif args.output:
         result = render(args.output)
-        print('Rendered %d saved-result views; no experiments rerun.' % len(result['views']))
+        print('Exported %d result-table views.' % len(result['views']))
     else:
         parser.error('Specify --list or --output')
 
