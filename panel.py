@@ -8,8 +8,20 @@ import pandas as pd
 
 from baselines import direct_counts, mtpr_step, pagerank
 from scoring import ScoreConfig, score_month
+from graph_inputs import GraphInputs, K
 
 MONTHS = [str(m) for m in pd.period_range('2024-07', '2026-02', freq='M')]
+
+
+def mtpr_reference(frame, ids):
+    if 'MTPR_time_safe_typed' not in frame:
+        raise ValueError('Missing embedded MTPR reference')
+    if frame.model_id.astype(str).tolist() != ids or frame.model_id.duplicated().any():
+        raise ValueError('MTPR reference node mismatch')
+    values = frame.MTPR_time_safe_typed.to_numpy(float)
+    if not np.isfinite(values).all():
+        raise ValueError('Nonfinite MTPR reference')
+    return values
 
 
 def rebuild(assets, output, until='2026-02'):
@@ -19,8 +31,7 @@ def rebuild(assets, output, until='2026-02'):
     if output.exists():
         raise FileExistsError('Use a new output directory')
     ledger = pd.read_parquet(assets / 'first_observed_edges.parquet')
-    ledger = ledger[['child_id', 'parent_id', 'relation', 'entry_month']].astype(str)
-    pair = ledger.groupby(['child_id', 'parent_id'], as_index=False).entry_month.min()
+    inputs = GraphInputs(ledger)
     metadata = pd.read_parquet(assets / 'models.parquet').drop_duplicates('id', keep='last')
     params = {str(i): None if pd.isna(p) else float(p) for i, p in zip(metadata.id, metadata.params)}
     output.mkdir(parents=True)
@@ -34,9 +45,10 @@ def rebuild(assets, output, until='2026-02'):
             raise ValueError('Invalid frozen model population')
         ids = frame.model_id.astype(str).tolist()
         q = dict(zip(ids, .5 * np.log1p(frame.Downloads.to_numpy(float)) + .5 * np.log1p(frame.Likes.to_numpy(float))))
-        topology = [(str(c), str(p), 'pair') for c, p in pair.loc[pair.entry_month.le(month), ['child_id', 'parent_id']].itertuples(index=False, name=None)]
-        events = [] if month == MONTHS[0] else [(str(c), str(p), 'pair') for c, p in pair.loc[pair.entry_month.eq(month), ['child_id', 'parent_id']].itertuples(index=False, name=None)]
-        typed = list(ledger.loc[ledger.entry_month.eq(month), ['child_id', 'parent_id', 'relation']].itertuples(index=False, name=None))
+        edges, current_edges, typed_edges = inputs.month(ids, month, first_empty=month == MONTHS[0])
+        topology = [(c, p, 'pair') for c, p in edges[K].itertuples(index=False, name=None)]
+        events = [(c, p, 'pair') for c, p in current_edges[K].itertuples(index=False, name=None)]
+        typed = list(typed_edges[K + ['relation']].itertuples(index=False, name=None))
         result = score_month(ids, topology, events, q, {}, {}, config)
         values = np.array([result.score_normalized[i] for i in ids])
         reference = frame.S_C3_Q10.to_numpy(float)
@@ -56,18 +68,22 @@ def rebuild(assets, output, until='2026-02'):
             'Cumulative Derivative Count': [cumulative[i] for i in ids],
             'Current Derivative Count': [current[i] for i in ids],
             'Downloads': frame.Downloads.to_numpy(), 'Likes': frame.Likes.to_numpy()})
-        mtpr_delta = None
-        expected_mtpr = assets / 'mtpr_reference' / (month + '.parquet')
-        if expected_mtpr.exists():
-            expected = pd.read_parquet(expected_mtpr).sort_values('model_id')
-            if expected.model_id.astype(str).tolist() != ids:
-                raise ValueError('MTPR reference node mismatch')
-            mtpr_delta = float(np.max(np.abs(table.MTPR.to_numpy() - expected.ModelRank.to_numpy())))
-            if not np.allclose(table.MTPR, expected.ModelRank, rtol=1e-9, atol=1e-9):
-                raise ValueError('MTPR differs from frozen scores: ' + month)
+        expected_mtpr = mtpr_reference(frame, ids)
+        mtpr_delta = float(np.max(np.abs(table.MTPR.to_numpy() - expected_mtpr)))
+        if not np.allclose(table.MTPR, expected_mtpr, rtol=1e-9, atol=1e-9):
+            raise ValueError('MTPR differs from frozen scores: ' + month)
+        baseline_errors = {}
+        for column, source in [('Vanilla PageRank', 'Vanilla PageRank'),
+                               ('Cumulative Derivative Count', 'AllTime DerivCount'),
+                               ('Current Derivative Count', 'Current DerivCount')]:
+            if not np.allclose(table[column], frame[source], rtol=1e-10, atol=1e-10):
+                raise ValueError(column + ' differs from frozen scores: ' + month)
+            baseline_errors[column + '_max_error'] = float(np.max(np.abs(table[column].to_numpy() - frame[source].to_numpy())))
         table.to_parquet(output / (month + '.parquet'), index=False)
         checks.append({'month': month, 'nodes': len(ids), 'ModelRank_max_error': delta,
-                       'MTPR_max_error': mtpr_delta})
+                       'MTPR_max_error': mtpr_delta, 'edges': len(edges),
+                       'current_pair_events': len(current_edges), 'typed_events': len(typed_edges),
+                       **baseline_errors})
         pd.DataFrame(checks).to_csv(output / 'reproduction.csv', index=False)
         print(month, len(ids), delta, mtpr_delta, flush=True)
         del table, frame, result, topology, events, typed, vanilla, cumulative, current

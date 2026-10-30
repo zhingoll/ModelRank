@@ -4,7 +4,7 @@
 
 Classification is based on version-pinned repository sources and metadata preserved at the audit time. A qualifying association first appears between June 1, 2025, and May 31, 2026, inclusive (UTC); the Space is publicly accessible at audit, has a different owner from the model, and has repository evidence connecting the exact target model to an application execution path. The evidence records identify the source revision, file and relevant lines for each explanation.
 
-A model is positive when at least one association qualifies. Otherwise, unresolved evidence yields an undecidable outcome; a negative label requires complete association auditing with no qualifying deployment. Collection failures are recorded separately. Construction denotes training, fine-tuning, merging or other model-building operations defined in the codebook. The descriptions below are author-prepared summaries of the cited evidence and, where applicable, the expert assessments.
+A model is positive when at least one association qualifies. Otherwise, unresolved evidence yields an undecidable outcome; a negative label requires complete association auditing with no qualifying deployment. Collection failures are recorded separately. Construction denotes training, fine-tuning, merging or other model-building operations. The descriptions below are author-prepared summaries of the cited evidence and, where applicable, the expert assessments.
 
 ## Exact-model application use: association 1381
 

@@ -110,11 +110,12 @@ def score_month(
     index = {model_id: position for position, model_id in enumerate(ordered)}
     size = len(ordered)
     q_values = np.array(
-        [max(0.0, float(q_base.get(model_id, 0.0))) for model_id in ordered],
+        [float(q_base.get(model_id, 0.0)) for model_id in ordered],
         dtype=float,
     )
     if not np.isfinite(q_values).all():
         raise ValueError("q_base contains nonfinite values")
+    q_values = np.maximum(0.0, q_values)
     q_max = max(1.0, float(q_values.max()))
 
     event_parents = _parent_lists(current_event_edges, index)
@@ -214,14 +215,19 @@ def score_month(
         iterations = iteration
         if difference < config.tolerance:
             break
+    else:
+        raise ValueError("PageRank did not converge within the iteration limit")
 
     raw = (1.0 - config.direct_blend) * current + config.direct_blend * tau
     previous_scores = previous_scores or {}
     if config.beta > 0 and previous_scores:
         inherited = np.array(
-            [max(0.0, float(previous_scores.get(model_id, 0.0))) for model_id in ordered],
+            [float(previous_scores.get(model_id, 0.0)) for model_id in ordered],
             dtype=float,
         )
+        if not np.isfinite(inherited).all():
+            raise ValueError("previous_scores contains nonfinite values")
+        inherited = np.maximum(0.0, inherited)
         inherited_total = float(inherited.sum())
         if inherited_total > 0:
             inherited /= inherited_total

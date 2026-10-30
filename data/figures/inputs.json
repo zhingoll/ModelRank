@@ -2,26 +2,26 @@
   "scatter": {
     "population": 721364,
     "download_p90": 45.0,
-    "score_p90": 0.2434687593373653,
+    "score_p90": 0.2489521528098604,
     "long_tail_n": 7000,
     "long_tail_seed": 42,
-    "retained_rows": 106669,
-    "inset_rows": 35789,
+    "retained_rows": 106671,
+    "inset_rows": 36282,
     "role_counts": {
-      "LT": 624623,
-      "PR": 48154,
-      "PL": 24394,
-      "HR": 24193
+      "LT": 625132,
+      "PR": 48602,
+      "PL": 23946,
+      "HR": 23684
     }
   },
   "trajectory_rows": 58,
   "sha256": {
-    "overview.svg": "7e1dc283dc684ad3474eb2868fe6918d32ab842ac81cf7b857ba294f7996ce7d",
-    "rq1_concentration.csv": "4c7134077fe8467b95da3316e543a77e09bc3c1b4b4f6cecc67fead50dbaddc3",
-    "rq1_type_evolution.csv": "532b0c9e0e8306a1027b087a4d551dc54620ad4a3e7543c7b9b9c47e67cc5ad9",
-    "scatter.csv.gz": "152af81d6c75d65ac306a2f3983a4133557a5695ca0f04b4112f7c26dfe064b5",
-    "trajectories.csv": "051f9cf781135b78fa57bf92a35ff26ab053b939e1be4d937acffcfb41a3ccab",
-    "transitions.csv": "196c0830c71a717cbdbda2bffc15267d750a4b9db607d177deec8f1eacf87674",
+    "overview.svg": "d1e26fe022031079b56ed594fa70c0ea363e225a212dcd0e4a06e41162ab7ad8",
+    "rq1_concentration.csv": "ef3017724bb8b1a291867fd9ad174887f39df90ce82d5b77d984df4aeca2b54b",
+    "rq1_type_evolution.csv": "289040be4982183f7e55b2370ae653e6c12d0e1e0e51ff116c44b1e405537acd",
+    "scatter.csv.gz": "4ef3334598429c5b25ba27e339000ff9b1c8c87eddb5ddd9023408bc26c611e3",
+    "trajectories.csv": "b2ec044cb98f8211837b339a262ee3effc2c20da723e5eb8c788d4e0946350e4",
+    "transitions.csv": "7a6e13c6647c868301a82cd31fbbc8cc10f3fa147998d137c28eb0901722fb85",
     "fig1_panel_a_overall_study_overview.pdf": "436507dfba6efaabba729e484444307f68aa30d5a948889a873d722c4540df0b"
   },
   "schematic_delivery": "Figure 1: frozen manually authored PDF reused unchanged, not regenerated; SVG supplied for editing."

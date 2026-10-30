@@ -13,15 +13,22 @@ from compare import compare_ordered_contrast
 METHODS = ['S_C3_Q10', 'AllTime DerivCount', 'Vanilla PageRank']
 
 
-def selection(ids, scores):
+def selection(ids, scores, rule='exact'):
     ids, s = np.asarray(ids,str), np.asarray(scores,float)
-    if not len(ids) or len(ids) != len(s) or len(set(ids)) != len(ids) or not np.isfinite(s).all():
+    if not len(ids) or len(ids) != len(s) or len(set(ids)) != len(ids) or not np.isfinite(s).all() or (s < 0).any():
         raise ValueError('Nonempty unique IDs and finite aligned scores are required')
+    if rule not in ('exact', 'near_log_1e12'):
+        raise ValueError('Unknown boundary rule')
     k = max(1, math.ceil(.1*len(ids)))
     idx = np.lexsort((ids,-s))[:k]
     cutoff = float(s[idx[-1]])
     high, tied = s > cutoff, s == cutoff
+    if rule == 'near_log_1e12':
+        distance = np.log1p(s) - np.log1p(cutoff)
+        high, tied = distance > 1e-12, np.abs(distance) <= 1e-12
     slots = k-int(high.sum())
+    if not 1 <= slots <= int(tied.sum()):
+        raise ValueError('Invalid boundary partition')
     return dict(idx=idx,high=high,tied=tied,k=k,cutoff=cutoff,
         boundary_ties=int(tied.sum()),boundary_slots=slots,boundary_partial=slots<int(tied.sum()))
 
@@ -40,6 +47,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input',type=Path,default=Path(__file__).resolve().parent/'data/top_decile')
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--boundary-rule', choices=['exact', 'near_log_1e12'], default='exact')
     args = parser.parse_args()
     protocol = json.loads((Path(__file__).resolve().parent/'data/comparison_protocol.json').read_text(encoding='utf-8'))
     origins = protocol['origins']['three_month']
@@ -59,7 +67,7 @@ def main():
         if len(frame) != population.loc[month,'candidate_n'] or not frame.Downloads.lt(threshold).all():
             raise ValueError('Candidate population does not match its fixed low-download band')
         ids = frame.model_id.to_numpy(str)
-        selections = {m:selection(ids,frame[m]) for m in METHODS}
+        selections = {m:selection(ids,frame[m],rule=args.boundary_rule) for m in METHODS}
         a,b = selections[METHODS[1]],selections[METHODS[2]]
         sa,sb = set(ids[a['idx']]),set(ids[b['idx']])
         overlaps.append(dict(month=month,candidate_n=len(frame),download_p90=threshold,k=a['k'],
@@ -96,6 +104,9 @@ def main():
                        ('monthly_uniform',alternative),('lift_and_boundary_sensitivity',pd.DataFrame(lifts)),
                        ('comparison_sensitivity',pd.concat(changes,ignore_index=True))]:
         frame.to_csv(args.output/(name+'.csv'),index=False)
+    (args.output/'boundary_rule.json').write_text(json.dumps({'rule':args.boundary_rule,
+        'log1p_absolute_tolerance':1e-12 if args.boundary_rule == 'near_log_1e12' else None,
+        'auc_uses_full_scores':True},indent=2),encoding='utf-8')
 
 
 if __name__ == '__main__':

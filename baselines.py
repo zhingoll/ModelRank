@@ -33,9 +33,10 @@ def pagerank(model_ids, edges, previous=None):
     vanilla = dict(result.scores)
     temporal = dict(vanilla)
     if previous:
-        values = np.array([max(0.0, float(previous.get(i, 0.0))) for i in ids])
+        values = np.array([float(previous.get(i, 0.0)) for i in ids])
         if not np.isfinite(values).all():
             raise ValueError('Previous PageRank must be finite')
+        values = np.maximum(0.0, values)
         if values.sum() > 0:
             values /= float(values.sum())
             mixed = .85 * np.array([vanilla[i] for i in ids]) + .15 * values
@@ -56,7 +57,5 @@ def mtpr_step(model_ids, current_typed_edges, popularity, parent_parameters, pre
                          tolerance=1e-8, max_iterations=200, mix_mode='raw')
     edges = sorted({(str(c), str(p), str(r).lower()) for c, p, r in current_typed_edges})
     result = score_month(ids, edges, edges, popularity, parent_parameters, previous or {}, config)
-    if result.trace.iterations >= config.max_iterations:
-        raise ValueError('MTPR iteration limit reached; inspect convergence')
     # Return probabilities for inheritance and node-count-normalized paper scores.
     return dict(result.scores), dict(result.score_normalized)

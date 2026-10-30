@@ -43,7 +43,7 @@ P041,0,3,0,0,item_2,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_base
 P042,0,3,0,0,item_2,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,audio_classification
 P043,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,audio_classification
 P044,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,audio_classification
-P045,3,0,0,0,item_1,item_2,item_1,item_2,tie,item_2,item_1,tie,Downloads,opposite_order,opposite_order,audio_classification
+P045,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,item_1,tie,Downloads,opposite_order,same_direction,audio_classification
 P046,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,audio_classification
 P047,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,audio_classification
 P048,3,0,0,0,item_1,item_1,item_1,tie,tie,tie,tie,item_1,Downloads,s3_order_baseline_tie,comparator_tie,audio_classification
@@ -123,7 +123,7 @@ P121,2,0,1,0,item_1,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite
 P122,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
 P123,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
 P124,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
-P125,0,0,3,0,tie,item_1,item_2,item_1,tie,item_1,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
+P125,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,same_direction,text_classification
 P126,0,0,3,0,tie,item_2,item_1,tie,tie,tie,item_2,tie,Full ModelRank,opposite_order,opposite_order,text_classification
 P127,0,3,0,0,item_2,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,text_classification
 P128,0,0,3,0,tie,item_1,item_2,tie,tie,tie,item_1,tie,Full ModelRank,opposite_order,opposite_order,text_classification
@@ -224,10 +224,10 @@ P222,0,1,2,0,tie,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_orde
 P223,3,0,0,0,item_1,item_2,item_2,tie,tie,tie,tie,item_2,Downloads,s3_order_baseline_tie,comparator_tie,token_classification
 P224,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,token_classification
 P225,0,3,0,0,item_2,item_1,item_1,tie,tie,tie,item_2,item_1,Downloads,opposite_order,opposite_order,token_classification
-P226,0,0,3,0,tie,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,token_classification
+P226,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_2,tie,Downloads,opposite_order,same_direction,token_classification
 P227,1,0,2,0,tie,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,token_classification
 P228,3,0,0,0,item_1,item_1,item_2,item_1,tie,item_1,item_2,tie,Downloads,opposite_order,opposite_order,token_classification
-P229,0,3,0,0,item_2,item_2,item_2,item_2,tie,item_2,tie,tie,Downloads,s3_order_baseline_tie,comparator_tie,token_classification
+P229,0,3,0,0,item_2,tie,item_2,tie,tie,tie,tie,tie,Downloads,s3_order_baseline_tie,both_tie,token_classification
 P230,0,0,3,0,tie,item_2,item_2,tie,tie,tie,item_1,item_2,Downloads,opposite_order,opposite_order,token_classification
 P231,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification
 P232,0,0,3,0,tie,item_1,item_1,tie,tie,tie,item_1,tie,Likes,s3_order_baseline_tie,comparator_tie,token_classification

@@ -1,8 +1,11 @@
-﻿comparator,original_relation,final_relation,n,mr_supported,opposite_to_mr,comparator_supported,expert_tie,unresolved,conditional_denominator,conditional_support_rate,wilson_low,wilson_high
-AllTime DerivCount,s3_order_baseline_tie,comparator_tie,40,14,11,0,15,0,25,0.56,0.3706733186979878,0.7333436111893266
-Current DerivCount,s3_order_baseline_tie,comparator_tie,40,7,16,0,17,0,23,0.30434782608695654,0.15604024453214022,0.508657562687592
-Downloads,opposite_order,opposite_order,25,9,7,7,8,1,16,0.5625,0.331785563988119,0.7690134759450765
-Downloads,s3_order_baseline_tie,comparator_tie,15,6,2,0,7,0,8,0.75,0.40927543031016883,0.9285207872478909
-Full ModelRank,opposite_order,opposite_order,40,15,7,7,18,0,22,0.6818181818181818,0.47318597741042745,0.8363940681864375
-Likes,s3_order_baseline_tie,comparator_tie,40,8,11,0,21,0,19,0.42105263157894735,0.23141891282454238,0.6372409646574496
-Vanilla PageRank,s3_order_baseline_tie,comparator_tie,38,16,8,0,14,0,24,0.6666666666666666,0.4670631683813174,0.8202780967270225
+comparator,relation,n,mr_supported,opposite_to_mr,mr_tie_decisive,comparator_supported,expert_tie,unresolved,conditional_denominator,conditional_support_rate,wilson_low,wilson_high
+AllTime DerivCount,comparator_tie,40,14,11,0,0,15,0,25,0.56,0.3706733186979878,0.7333436111893266
+Current DerivCount,comparator_tie,40,7,16,0,0,17,0,23,0.30434782608695654,0.15604024453214022,0.508657562687592
+Downloads,both_tie,1,0,0,1,0,0,0,0,,,
+Downloads,comparator_tie,14,5,2,0,0,7,0,7,0.7142857142857143,0.35893445183261935,0.9177810759959433
+Downloads,opposite_order,23,9,6,0,6,7,1,15,0.6,0.357468301206246,0.8017550385865841
+Downloads,same_direction,2,1,0,0,1,1,0,1,1.0,0.20654931437723745,1.0
+Full ModelRank,opposite_order,39,15,7,0,7,17,0,22,0.6818181818181818,0.47318597741042745,0.8363940681864375
+Full ModelRank,same_direction,1,0,0,0,0,1,0,0,,,
+Likes,comparator_tie,40,8,11,0,0,21,0,19,0.42105263157894735,0.23141891282454238,0.6372409646574496
+Vanilla PageRank,comparator_tie,38,16,8,0,0,14,0,24,0.6666666666666666,0.4670631683813174,0.8202780967270225

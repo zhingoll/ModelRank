@@ -1,0 +1,1810 @@
+[
+  {
+    "variant": "F01-01",
+    "case_family": "F01",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Ba2han/copr-model-muon-2",
+      "Ba2han/sft-model-muon-3"
+    ],
+    "relation_ids": [
+      "REL-614ac0d6cbbfa410466d",
+      "REL-80dbbda41c56ee34bf0e"
+    ]
+  },
+  {
+    "variant": "F02-01",
+    "case_family": "F02",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "BexRedpill/distilbert-on-polarity-yelp-reviews",
+      "BexRedpill/distilbert-on-polarity-yelp-reviews-epoch-2"
+    ],
+    "relation_ids": [
+      "REL-d26e2f5eb6e47d6855d8",
+      "REL-e563fa3a0197990d5d43"
+    ]
+  },
+  {
+    "variant": "F02-02",
+    "case_family": "F02",
+    "scope": "MAIN",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "BexRedpill/distilbert-on-polarity-yelp-reviews",
+      "BexRedpill/distilbert-on-polarity-yelp-reviews-epoch-2"
+    ],
+    "relation_ids": [
+      "REL-d26e2f5eb6e47d6855d8",
+      "REL-e563fa3a0197990d5d43"
+    ]
+  },
+  {
+    "variant": "F02-03",
+    "case_family": "F02",
+    "scope": "SPACE",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "BexRedpill/distilbert-on-polarity-yelp-reviews",
+      "BexRedpill/distilbert-on-polarity-yelp-reviews-epoch-2"
+    ],
+    "relation_ids": [
+      "REL-d26e2f5eb6e47d6855d8",
+      "REL-e563fa3a0197990d5d43"
+    ]
+  },
+  {
+    "variant": "F03-01",
+    "case_family": "F03",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Demoglab/Meringue",
+      "Sharktunis/KARKAR"
+    ],
+    "relation_ids": [
+      "REL-3643b90b28572725d025",
+      "REL-c23db59124a70b5849f4"
+    ]
+  },
+  {
+    "variant": "F03-02",
+    "case_family": "F03",
+    "scope": "MAIN",
+    "months": [
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Demoglab/Meringue",
+      "Sharktunis/KARKAR"
+    ],
+    "relation_ids": [
+      "REL-3643b90b28572725d025",
+      "REL-c23db59124a70b5849f4"
+    ]
+  },
+  {
+    "variant": "F04-01",
+    "case_family": "F04",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Gems234/Alisia-7B-Instruct-V1.0-private",
+      "Gems234/Alisia-x3-7B-Instruct-V1.0-private"
+    ],
+    "relation_ids": [
+      "REL-96da6deee1d0e9d04399",
+      "REL-bc48e6486ff1bac2ca7a"
+    ]
+  },
+  {
+    "variant": "F05-01",
+    "case_family": "F05",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "LeroyDyer/_Spydaz_Web_AGI_DeepThink_R1",
+      "LeroyDyer/_Spydaz_Web_AGI_DeepThink_R2"
+    ],
+    "relation_ids": [
+      "REL-424441368fd214186d0b",
+      "REL-cca8c90bf6759f147d81"
+    ]
+  },
+  {
+    "variant": "F05-02",
+    "case_family": "F05",
+    "scope": "SPACE",
+    "months": [
+      "2025-04"
+    ],
+    "nodes": [
+      "LeroyDyer/_Spydaz_Web_AGI_DeepThink_R1",
+      "LeroyDyer/_Spydaz_Web_AGI_DeepThink_R2"
+    ],
+    "relation_ids": [
+      "REL-424441368fd214186d0b",
+      "REL-cca8c90bf6759f147d81"
+    ]
+  },
+  {
+    "variant": "F06-01",
+    "case_family": "F06",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "MrRobotoAI/100",
+      "MrRobotoAI/101",
+      "MrRobotoAI/102",
+      "MrRobotoAI/103",
+      "MrRobotoAI/104",
+      "MrRobotoAI/105",
+      "MrRobotoAI/106",
+      "MrRobotoAI/107",
+      "MrRobotoAI/108",
+      "MrRobotoAI/109",
+      "MrRobotoAI/110",
+      "MrRobotoAI/111",
+      "MrRobotoAI/112",
+      "MrRobotoAI/113",
+      "MrRobotoAI/115",
+      "MrRobotoAI/116",
+      "MrRobotoAI/120",
+      "MrRobotoAI/121",
+      "MrRobotoAI/122",
+      "MrRobotoAI/A1",
+      "MrRobotoAI/A2",
+      "MrRobotoAI/A3",
+      "MrRobotoAI/A4",
+      "MrRobotoAI/A5",
+      "MrRobotoAI/A6",
+      "MrRobotoAI/A7",
+      "MrRobotoAI/A8"
+    ],
+    "relation_ids": [
+      "REL-04b492a1bb8d02893785",
+      "REL-04ba28580a027d98c069",
+      "REL-052d52a839963aa13fef",
+      "REL-0a0e61a6a27be6fe2d66",
+      "REL-0b0825e4ff80af06736e",
+      "REL-0c2c4e121a62a5a5b9df",
+      "REL-0cea6bc37ad40581169c",
+      "REL-0e490969bda615bba0b4",
+      "REL-0e71e767978dfa1d5437",
+      "REL-0fc2cefa2c5974f416fd",
+      "REL-0fd864ae19daf1542999",
+      "REL-114ef89dc97c1c188be3",
+      "REL-1254d82342fdcf2fd193",
+      "REL-153f2d1081b888d048e6",
+      "REL-1ce9a23d9cf04d3dcccc",
+      "REL-215d05312c01b2c389b1",
+      "REL-21b2e7b4f3a363ee26ef",
+      "REL-22281400ec6449e3c003",
+      "REL-238472f10b3fdf7e5e08",
+      "REL-2f28b8d3379c0abd8ef6",
+      "REL-2fd4805dd1e8a248944d",
+      "REL-3285284e0f7592f8a53a",
+      "REL-36768419f21c46411c3a",
+      "REL-38c17e1e0fc826b3d4be",
+      "REL-3b0decaf362c411ff97c",
+      "REL-3b5107c790106067f3ec",
+      "REL-3cf7f5f15d3806a27d10",
+      "REL-3e65b293232c97c46f4f",
+      "REL-464adc399bcec9e7a978",
+      "REL-4bc618e85ec99a5d4d1b",
+      "REL-4bf1e8094c4d323741d1",
+      "REL-4ddf5898376a35a60bc9",
+      "REL-503eb663d9b3ab72afa8",
+      "REL-504d9c14b88f91bf0e76",
+      "REL-52a4a7e23417311f4527",
+      "REL-54634ae4cd4ab5730096",
+      "REL-5eade18071ddcdd874d6",
+      "REL-626d539b7194f545e971",
+      "REL-628b9d46cba7a1e5f74d",
+      "REL-62e2c4557a992dce8ad5",
+      "REL-695bd11eb2b6d5a1e3b3",
+      "REL-69834472eb6222daedd0",
+      "REL-6a99407951d7260449c1",
+      "REL-6b5cbc77c66668d22cc4",
+      "REL-6c2df95e366660dac1e8",
+      "REL-6ededda3a92f0b10ef9c",
+      "REL-6ef7e181121cfe7b26db",
+      "REL-76cc5343283b7c590479",
+      "REL-76ea8e8a459ff73b119e",
+      "REL-787ae7f42c940ec4c1ea",
+      "REL-7a1af368e1f962d33a3d",
+      "REL-7d0e047173d328977147",
+      "REL-7d1cb3d7e97e94fda9cf",
+      "REL-7dd3509629247b154b24",
+      "REL-81ec39e221141f807922",
+      "REL-842bb6e2e007be0f6f74",
+      "REL-881d2e3b2e08c4a12fcd",
+      "REL-882db1779d9c35ac6aa9",
+      "REL-89160d182a9377b232b2",
+      "REL-8b53b87797c3166c7cc9",
+      "REL-8d1c6173aa4dc5cb904c",
+      "REL-8d4d2251eb5d89ec3fde",
+      "REL-8fa1e034b16ee75b92d3",
+      "REL-910bd6dfa828601ad0f7",
+      "REL-930b0d60b314a1425b02",
+      "REL-9adf2ef88ea829dd61cf",
+      "REL-a0b5cfaaf6cb6581e31b",
+      "REL-a1d0fe86c80e8c0d28ef",
+      "REL-a2d5298a14a63cbd1b90",
+      "REL-a5db5ee0e762446d18be",
+      "REL-a7a786fcc277412760a7",
+      "REL-a871e7f00977076a7c1d",
+      "REL-aa5fa3574bc9e03ca5f4",
+      "REL-abf9fbea2536099287c8",
+      "REL-ac620be511109063c315",
+      "REL-ae7b833c70ee1228bdbf",
+      "REL-af2de3ed0349424c5b46",
+      "REL-af3125ba78c256212f9c",
+      "REL-afe1ce235effd5e21fca",
+      "REL-b1909965bbc3ae22a521",
+      "REL-b4a0772479fb48c0db95",
+      "REL-b5e66c7abdbc9b653026",
+      "REL-b9f56d64676d34ce21e8",
+      "REL-bd391a895462d1bc59b9",
+      "REL-bf3532028009a3d2a8d9",
+      "REL-bf7df2f76eb280bd0bdd",
+      "REL-bfc19efde7adf92e7cb7",
+      "REL-c5a1b06abd5c237b0a6b",
+      "REL-c76cec10b4ee12262ca6",
+      "REL-c88b5483974d564bc1fa",
+      "REL-cb0076b771b65dd19d09",
+      "REL-cc86a02e49ac7daa9eff",
+      "REL-ccb66f25a4d38d4299e3",
+      "REL-cd866b101ccc48f5bf3b",
+      "REL-cf051d476b7f46effe3a",
+      "REL-d08f92fbf6380ea7485e",
+      "REL-d2b1c5496bee7183d694",
+      "REL-d2d0c52a1025e24b6a43",
+      "REL-d46ecfe324fe1c2ebed9",
+      "REL-d6acaaad4a3baa8fbbed",
+      "REL-da97962fd454f7da56ac",
+      "REL-dc75da5be4459f967fef",
+      "REL-e1be9e5545e529577986",
+      "REL-e23a7cd80b6f4aeefc6c",
+      "REL-ebf281d217488fd4506c",
+      "REL-f1715cbc55646e77381d",
+      "REL-f5b661e45a7da3a7f2bb",
+      "REL-f692d5241fbd6ab8018b",
+      "REL-f7768300bd1bf25dce13"
+    ]
+  },
+  {
+    "variant": "F06-02",
+    "case_family": "F06",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "nodes": [
+      "MrRobotoAI/100",
+      "MrRobotoAI/101",
+      "MrRobotoAI/102",
+      "MrRobotoAI/103",
+      "MrRobotoAI/104",
+      "MrRobotoAI/105",
+      "MrRobotoAI/106",
+      "MrRobotoAI/107",
+      "MrRobotoAI/108",
+      "MrRobotoAI/109",
+      "MrRobotoAI/110",
+      "MrRobotoAI/111",
+      "MrRobotoAI/112",
+      "MrRobotoAI/113",
+      "MrRobotoAI/115",
+      "MrRobotoAI/116",
+      "MrRobotoAI/120",
+      "MrRobotoAI/121",
+      "MrRobotoAI/122",
+      "MrRobotoAI/A1",
+      "MrRobotoAI/A2",
+      "MrRobotoAI/A3",
+      "MrRobotoAI/A4",
+      "MrRobotoAI/A5",
+      "MrRobotoAI/A6",
+      "MrRobotoAI/A7",
+      "MrRobotoAI/A8"
+    ],
+    "relation_ids": [
+      "REL-04b492a1bb8d02893785",
+      "REL-04ba28580a027d98c069",
+      "REL-052d52a839963aa13fef",
+      "REL-0a0e61a6a27be6fe2d66",
+      "REL-0b0825e4ff80af06736e",
+      "REL-0c2c4e121a62a5a5b9df",
+      "REL-0cea6bc37ad40581169c",
+      "REL-0e490969bda615bba0b4",
+      "REL-0e71e767978dfa1d5437",
+      "REL-0fc2cefa2c5974f416fd",
+      "REL-0fd864ae19daf1542999",
+      "REL-114ef89dc97c1c188be3",
+      "REL-1254d82342fdcf2fd193",
+      "REL-153f2d1081b888d048e6",
+      "REL-1ce9a23d9cf04d3dcccc",
+      "REL-215d05312c01b2c389b1",
+      "REL-21b2e7b4f3a363ee26ef",
+      "REL-22281400ec6449e3c003",
+      "REL-238472f10b3fdf7e5e08",
+      "REL-2f28b8d3379c0abd8ef6",
+      "REL-2fd4805dd1e8a248944d",
+      "REL-3285284e0f7592f8a53a",
+      "REL-36768419f21c46411c3a",
+      "REL-38c17e1e0fc826b3d4be",
+      "REL-3b0decaf362c411ff97c",
+      "REL-3b5107c790106067f3ec",
+      "REL-3cf7f5f15d3806a27d10",
+      "REL-3e65b293232c97c46f4f",
+      "REL-464adc399bcec9e7a978",
+      "REL-4bc618e85ec99a5d4d1b",
+      "REL-4bf1e8094c4d323741d1",
+      "REL-4ddf5898376a35a60bc9",
+      "REL-503eb663d9b3ab72afa8",
+      "REL-504d9c14b88f91bf0e76",
+      "REL-52a4a7e23417311f4527",
+      "REL-54634ae4cd4ab5730096",
+      "REL-5eade18071ddcdd874d6",
+      "REL-626d539b7194f545e971",
+      "REL-628b9d46cba7a1e5f74d",
+      "REL-62e2c4557a992dce8ad5",
+      "REL-695bd11eb2b6d5a1e3b3",
+      "REL-69834472eb6222daedd0",
+      "REL-6a99407951d7260449c1",
+      "REL-6b5cbc77c66668d22cc4",
+      "REL-6c2df95e366660dac1e8",
+      "REL-6ededda3a92f0b10ef9c",
+      "REL-6ef7e181121cfe7b26db",
+      "REL-76cc5343283b7c590479",
+      "REL-76ea8e8a459ff73b119e",
+      "REL-787ae7f42c940ec4c1ea",
+      "REL-7a1af368e1f962d33a3d",
+      "REL-7d0e047173d328977147",
+      "REL-7d1cb3d7e97e94fda9cf",
+      "REL-7dd3509629247b154b24",
+      "REL-81ec39e221141f807922",
+      "REL-842bb6e2e007be0f6f74",
+      "REL-881d2e3b2e08c4a12fcd",
+      "REL-882db1779d9c35ac6aa9",
+      "REL-89160d182a9377b232b2",
+      "REL-8b53b87797c3166c7cc9",
+      "REL-8d1c6173aa4dc5cb904c",
+      "REL-8d4d2251eb5d89ec3fde",
+      "REL-8fa1e034b16ee75b92d3",
+      "REL-910bd6dfa828601ad0f7",
+      "REL-930b0d60b314a1425b02",
+      "REL-9adf2ef88ea829dd61cf",
+      "REL-a0b5cfaaf6cb6581e31b",
+      "REL-a1d0fe86c80e8c0d28ef",
+      "REL-a2d5298a14a63cbd1b90",
+      "REL-a5db5ee0e762446d18be",
+      "REL-a7a786fcc277412760a7",
+      "REL-a871e7f00977076a7c1d",
+      "REL-aa5fa3574bc9e03ca5f4",
+      "REL-abf9fbea2536099287c8",
+      "REL-ac620be511109063c315",
+      "REL-ae7b833c70ee1228bdbf",
+      "REL-af2de3ed0349424c5b46",
+      "REL-af3125ba78c256212f9c",
+      "REL-afe1ce235effd5e21fca",
+      "REL-b1909965bbc3ae22a521",
+      "REL-b4a0772479fb48c0db95",
+      "REL-b5e66c7abdbc9b653026",
+      "REL-b9f56d64676d34ce21e8",
+      "REL-bd391a895462d1bc59b9",
+      "REL-bf3532028009a3d2a8d9",
+      "REL-bf7df2f76eb280bd0bdd",
+      "REL-bfc19efde7adf92e7cb7",
+      "REL-c5a1b06abd5c237b0a6b",
+      "REL-c76cec10b4ee12262ca6",
+      "REL-c88b5483974d564bc1fa",
+      "REL-cb0076b771b65dd19d09",
+      "REL-cc86a02e49ac7daa9eff",
+      "REL-ccb66f25a4d38d4299e3",
+      "REL-cd866b101ccc48f5bf3b",
+      "REL-cf051d476b7f46effe3a",
+      "REL-d08f92fbf6380ea7485e",
+      "REL-d2d0c52a1025e24b6a43",
+      "REL-d46ecfe324fe1c2ebed9",
+      "REL-d6acaaad4a3baa8fbbed",
+      "REL-da97962fd454f7da56ac",
+      "REL-dc75da5be4459f967fef",
+      "REL-e1be9e5545e529577986",
+      "REL-e23a7cd80b6f4aeefc6c",
+      "REL-ebf281d217488fd4506c",
+      "REL-f1715cbc55646e77381d",
+      "REL-f5b661e45a7da3a7f2bb",
+      "REL-f692d5241fbd6ab8018b",
+      "REL-f7768300bd1bf25dce13"
+    ]
+  },
+  {
+    "variant": "F06-03",
+    "case_family": "F06",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-04"
+    ],
+    "nodes": [
+      "MrRobotoAI/100",
+      "MrRobotoAI/101",
+      "MrRobotoAI/102",
+      "MrRobotoAI/103",
+      "MrRobotoAI/104",
+      "MrRobotoAI/105",
+      "MrRobotoAI/106",
+      "MrRobotoAI/107",
+      "MrRobotoAI/108",
+      "MrRobotoAI/109",
+      "MrRobotoAI/110",
+      "MrRobotoAI/111",
+      "MrRobotoAI/112",
+      "MrRobotoAI/113",
+      "MrRobotoAI/115",
+      "MrRobotoAI/116",
+      "MrRobotoAI/120",
+      "MrRobotoAI/121",
+      "MrRobotoAI/122",
+      "MrRobotoAI/A1",
+      "MrRobotoAI/A2",
+      "MrRobotoAI/A3",
+      "MrRobotoAI/A4",
+      "MrRobotoAI/A5",
+      "MrRobotoAI/A6",
+      "MrRobotoAI/A7",
+      "MrRobotoAI/A8"
+    ],
+    "relation_ids": [
+      "REL-04b492a1bb8d02893785",
+      "REL-04ba28580a027d98c069",
+      "REL-052d52a839963aa13fef",
+      "REL-0a0e61a6a27be6fe2d66",
+      "REL-0b0825e4ff80af06736e",
+      "REL-0c2c4e121a62a5a5b9df",
+      "REL-0cea6bc37ad40581169c",
+      "REL-0e490969bda615bba0b4",
+      "REL-0e71e767978dfa1d5437",
+      "REL-0fc2cefa2c5974f416fd",
+      "REL-0fd864ae19daf1542999",
+      "REL-114ef89dc97c1c188be3",
+      "REL-1254d82342fdcf2fd193",
+      "REL-153f2d1081b888d048e6",
+      "REL-1ce9a23d9cf04d3dcccc",
+      "REL-215d05312c01b2c389b1",
+      "REL-21b2e7b4f3a363ee26ef",
+      "REL-22281400ec6449e3c003",
+      "REL-2f28b8d3379c0abd8ef6",
+      "REL-2fd4805dd1e8a248944d",
+      "REL-3285284e0f7592f8a53a",
+      "REL-38c17e1e0fc826b3d4be",
+      "REL-3b0decaf362c411ff97c",
+      "REL-3b5107c790106067f3ec",
+      "REL-3cf7f5f15d3806a27d10",
+      "REL-3e65b293232c97c46f4f",
+      "REL-464adc399bcec9e7a978",
+      "REL-4bc618e85ec99a5d4d1b",
+      "REL-4bf1e8094c4d323741d1",
+      "REL-503eb663d9b3ab72afa8",
+      "REL-504d9c14b88f91bf0e76",
+      "REL-52a4a7e23417311f4527",
+      "REL-54634ae4cd4ab5730096",
+      "REL-5eade18071ddcdd874d6",
+      "REL-626d539b7194f545e971",
+      "REL-628b9d46cba7a1e5f74d",
+      "REL-62e2c4557a992dce8ad5",
+      "REL-695bd11eb2b6d5a1e3b3",
+      "REL-6a99407951d7260449c1",
+      "REL-6b5cbc77c66668d22cc4",
+      "REL-6c2df95e366660dac1e8",
+      "REL-6ededda3a92f0b10ef9c",
+      "REL-6ef7e181121cfe7b26db",
+      "REL-76cc5343283b7c590479",
+      "REL-76ea8e8a459ff73b119e",
+      "REL-787ae7f42c940ec4c1ea",
+      "REL-7a1af368e1f962d33a3d",
+      "REL-7d1cb3d7e97e94fda9cf",
+      "REL-7dd3509629247b154b24",
+      "REL-81ec39e221141f807922",
+      "REL-842bb6e2e007be0f6f74",
+      "REL-881d2e3b2e08c4a12fcd",
+      "REL-89160d182a9377b232b2",
+      "REL-8b53b87797c3166c7cc9",
+      "REL-8d4d2251eb5d89ec3fde",
+      "REL-8fa1e034b16ee75b92d3",
+      "REL-910bd6dfa828601ad0f7",
+      "REL-930b0d60b314a1425b02",
+      "REL-9adf2ef88ea829dd61cf",
+      "REL-a0b5cfaaf6cb6581e31b",
+      "REL-a1d0fe86c80e8c0d28ef",
+      "REL-a2d5298a14a63cbd1b90",
+      "REL-a5db5ee0e762446d18be",
+      "REL-a7a786fcc277412760a7",
+      "REL-a871e7f00977076a7c1d",
+      "REL-aa5fa3574bc9e03ca5f4",
+      "REL-abf9fbea2536099287c8",
+      "REL-ac620be511109063c315",
+      "REL-ae7b833c70ee1228bdbf",
+      "REL-af2de3ed0349424c5b46",
+      "REL-af3125ba78c256212f9c",
+      "REL-afe1ce235effd5e21fca",
+      "REL-b1909965bbc3ae22a521",
+      "REL-b4a0772479fb48c0db95",
+      "REL-b5e66c7abdbc9b653026",
+      "REL-b9f56d64676d34ce21e8",
+      "REL-bd391a895462d1bc59b9",
+      "REL-bf3532028009a3d2a8d9",
+      "REL-bf7df2f76eb280bd0bdd",
+      "REL-bfc19efde7adf92e7cb7",
+      "REL-c5a1b06abd5c237b0a6b",
+      "REL-c76cec10b4ee12262ca6",
+      "REL-c88b5483974d564bc1fa",
+      "REL-cb0076b771b65dd19d09",
+      "REL-cc86a02e49ac7daa9eff",
+      "REL-ccb66f25a4d38d4299e3",
+      "REL-cd866b101ccc48f5bf3b",
+      "REL-cf051d476b7f46effe3a",
+      "REL-d08f92fbf6380ea7485e",
+      "REL-d2d0c52a1025e24b6a43",
+      "REL-d46ecfe324fe1c2ebed9",
+      "REL-d6acaaad4a3baa8fbbed",
+      "REL-da97962fd454f7da56ac",
+      "REL-dc75da5be4459f967fef",
+      "REL-e1be9e5545e529577986",
+      "REL-e23a7cd80b6f4aeefc6c",
+      "REL-ebf281d217488fd4506c",
+      "REL-f1715cbc55646e77381d",
+      "REL-f5b661e45a7da3a7f2bb",
+      "REL-f692d5241fbd6ab8018b",
+      "REL-f7768300bd1bf25dce13"
+    ]
+  },
+  {
+    "variant": "F06-04",
+    "case_family": "F06",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-03"
+    ],
+    "nodes": [
+      "MrRobotoAI/100",
+      "MrRobotoAI/103",
+      "MrRobotoAI/105",
+      "MrRobotoAI/106",
+      "MrRobotoAI/120",
+      "MrRobotoAI/121",
+      "MrRobotoAI/122"
+    ],
+    "relation_ids": [
+      "REL-04ba28580a027d98c069",
+      "REL-052d52a839963aa13fef",
+      "REL-0cea6bc37ad40581169c",
+      "REL-0e71e767978dfa1d5437",
+      "REL-0fd864ae19daf1542999",
+      "REL-2fd4805dd1e8a248944d",
+      "REL-842bb6e2e007be0f6f74",
+      "REL-910bd6dfa828601ad0f7",
+      "REL-a1d0fe86c80e8c0d28ef",
+      "REL-a2d5298a14a63cbd1b90",
+      "REL-abf9fbea2536099287c8",
+      "REL-af2de3ed0349424c5b46",
+      "REL-bf3532028009a3d2a8d9",
+      "REL-e1be9e5545e529577986",
+      "REL-ebf281d217488fd4506c"
+    ]
+  },
+  {
+    "variant": "F06-05",
+    "case_family": "F06",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-03"
+    ],
+    "nodes": [
+      "MrRobotoAI/109",
+      "MrRobotoAI/112",
+      "MrRobotoAI/A3"
+    ],
+    "relation_ids": [
+      "REL-153f2d1081b888d048e6",
+      "REL-21b2e7b4f3a363ee26ef",
+      "REL-bfc19efde7adf92e7cb7",
+      "REL-d2d0c52a1025e24b6a43"
+    ]
+  },
+  {
+    "variant": "F06-06",
+    "case_family": "F06",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-02"
+    ],
+    "nodes": [
+      "MrRobotoAI/112",
+      "MrRobotoAI/A3"
+    ],
+    "relation_ids": [
+      "REL-153f2d1081b888d048e6",
+      "REL-d2d0c52a1025e24b6a43"
+    ]
+  },
+  {
+    "variant": "F06-07",
+    "case_family": "F06",
+    "scope": "MAIN",
+    "months": [
+      "2025-05",
+      "2025-06",
+      "2025-07"
+    ],
+    "nodes": [
+      "MrRobotoAI/102",
+      "MrRobotoAI/110",
+      "MrRobotoAI/113",
+      "MrRobotoAI/A1",
+      "MrRobotoAI/A2",
+      "MrRobotoAI/A3",
+      "MrRobotoAI/A4",
+      "MrRobotoAI/A5"
+    ],
+    "relation_ids": [
+      "REL-0c2c4e121a62a5a5b9df",
+      "REL-114ef89dc97c1c188be3",
+      "REL-36768419f21c46411c3a",
+      "REL-3b5107c790106067f3ec",
+      "REL-3cf7f5f15d3806a27d10",
+      "REL-4bc618e85ec99a5d4d1b",
+      "REL-4ddf5898376a35a60bc9",
+      "REL-503eb663d9b3ab72afa8",
+      "REL-6b5cbc77c66668d22cc4",
+      "REL-6c2df95e366660dac1e8",
+      "REL-8d1c6173aa4dc5cb904c",
+      "REL-8d4d2251eb5d89ec3fde",
+      "REL-c76cec10b4ee12262ca6",
+      "REL-cb0076b771b65dd19d09",
+      "REL-cd866b101ccc48f5bf3b",
+      "REL-f5b661e45a7da3a7f2bb",
+      "REL-f7768300bd1bf25dce13"
+    ]
+  },
+  {
+    "variant": "F06-08",
+    "case_family": "F06",
+    "scope": "MAIN",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "MrRobotoAI/102",
+      "MrRobotoAI/110",
+      "MrRobotoAI/113",
+      "MrRobotoAI/A1",
+      "MrRobotoAI/A2",
+      "MrRobotoAI/A3",
+      "MrRobotoAI/A4",
+      "MrRobotoAI/A5",
+      "MrRobotoAI/A6"
+    ],
+    "relation_ids": [
+      "REL-0c2c4e121a62a5a5b9df",
+      "REL-114ef89dc97c1c188be3",
+      "REL-215d05312c01b2c389b1",
+      "REL-238472f10b3fdf7e5e08",
+      "REL-36768419f21c46411c3a",
+      "REL-3b5107c790106067f3ec",
+      "REL-3cf7f5f15d3806a27d10",
+      "REL-4bc618e85ec99a5d4d1b",
+      "REL-4ddf5898376a35a60bc9",
+      "REL-503eb663d9b3ab72afa8",
+      "REL-6b5cbc77c66668d22cc4",
+      "REL-6c2df95e366660dac1e8",
+      "REL-7a1af368e1f962d33a3d",
+      "REL-8d1c6173aa4dc5cb904c",
+      "REL-8d4d2251eb5d89ec3fde",
+      "REL-c76cec10b4ee12262ca6",
+      "REL-cb0076b771b65dd19d09",
+      "REL-cd866b101ccc48f5bf3b",
+      "REL-d2b1c5496bee7183d694",
+      "REL-f5b661e45a7da3a7f2bb",
+      "REL-f7768300bd1bf25dce13"
+    ]
+  },
+  {
+    "variant": "F06-09",
+    "case_family": "F06",
+    "scope": "SPACE",
+    "months": [
+      "2025-04"
+    ],
+    "nodes": [
+      "MrRobotoAI/102",
+      "MrRobotoAI/105",
+      "MrRobotoAI/106",
+      "MrRobotoAI/A2",
+      "MrRobotoAI/A4",
+      "MrRobotoAI/A5",
+      "MrRobotoAI/A6",
+      "MrRobotoAI/A7",
+      "MrRobotoAI/A8"
+    ],
+    "relation_ids": [
+      "REL-04b492a1bb8d02893785",
+      "REL-0c2c4e121a62a5a5b9df",
+      "REL-1254d82342fdcf2fd193",
+      "REL-215d05312c01b2c389b1",
+      "REL-2f28b8d3379c0abd8ef6",
+      "REL-3e65b293232c97c46f4f",
+      "REL-4bc618e85ec99a5d4d1b",
+      "REL-54634ae4cd4ab5730096",
+      "REL-6c2df95e366660dac1e8",
+      "REL-76cc5343283b7c590479",
+      "REL-7a1af368e1f962d33a3d",
+      "REL-930b0d60b314a1425b02",
+      "REL-abf9fbea2536099287c8",
+      "REL-b1909965bbc3ae22a521",
+      "REL-c5a1b06abd5c237b0a6b",
+      "REL-cb0076b771b65dd19d09",
+      "REL-cf051d476b7f46effe3a",
+      "REL-da97962fd454f7da56ac"
+    ]
+  },
+  {
+    "variant": "F07-01",
+    "case_family": "F07",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "MrRobotoAI/Hathor-v3.1",
+      "MrRobotoAI/Hathor-v4",
+      "MrRobotoAI/Hathor-v4.1"
+    ],
+    "relation_ids": [
+      "REL-0afbb83d73071b5707f8",
+      "REL-408a8c2ba023fb3cf565",
+      "REL-ba8434d66af20c33439f"
+    ]
+  },
+  {
+    "variant": "F08-01",
+    "case_family": "F08",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "MrRobotoAI/Loki-base",
+      "MrRobotoAI/llama3-8B-Special-Dark-v3.1.2c"
+    ],
+    "relation_ids": [
+      "REL-4313d9f2800a5aec2dd4",
+      "REL-9df9620fd6accd8a3bb7"
+    ]
+  },
+  {
+    "variant": "F09-01",
+    "case_family": "F09",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "SQAI/bge-embedding-model",
+      "SQAI/bge-embedding-model2"
+    ],
+    "relation_ids": [
+      "REL-5903ba8c2346b24bcd5e",
+      "REL-9bd4d751b7468deecdeb"
+    ]
+  },
+  {
+    "variant": "F10-01",
+    "case_family": "F10",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Sorawiz/MistralCreative-24B",
+      "Sorawiz/MistralCreative-24B-Chat",
+      "Sorawiz/MistralCreative-24B-Instruct"
+    ],
+    "relation_ids": [
+      "REL-34e0d976a6e61ff7d8e1",
+      "REL-6c0e10ed2a31ab7768b7",
+      "REL-b5e6630ab0be40aa4ebd",
+      "REL-f5ccc776f1438d5bf998"
+    ]
+  },
+  {
+    "variant": "F10-02",
+    "case_family": "F10",
+    "scope": "MAIN",
+    "months": [
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Sorawiz/MistralCreative-24B",
+      "Sorawiz/MistralCreative-24B-Chat",
+      "Sorawiz/MistralCreative-24B-Instruct"
+    ],
+    "relation_ids": [
+      "REL-34e0d976a6e61ff7d8e1",
+      "REL-6c0e10ed2a31ab7768b7",
+      "REL-b5e6630ab0be40aa4ebd",
+      "REL-f5ccc776f1438d5bf998"
+    ]
+  },
+  {
+    "variant": "F10-03",
+    "case_family": "F10",
+    "scope": "SPACE",
+    "months": [
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "Sorawiz/MistralCreative-24B",
+      "Sorawiz/MistralCreative-24B-Chat",
+      "Sorawiz/MistralCreative-24B-Instruct"
+    ],
+    "relation_ids": [
+      "REL-34e0d976a6e61ff7d8e1",
+      "REL-6c0e10ed2a31ab7768b7",
+      "REL-b5e6630ab0be40aa4ebd",
+      "REL-f5ccc776f1438d5bf998"
+    ]
+  },
+  {
+    "variant": "F11-01",
+    "case_family": "F11",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Sorawiz/MistralSmall-Creative-24B",
+      "Sorawiz/MistralSmall-Creative-24B-Realist"
+    ],
+    "relation_ids": [
+      "REL-aff7e18f64aa7670e235",
+      "REL-c92aa23f943dcb0805bc"
+    ]
+  },
+  {
+    "variant": "F11-02",
+    "case_family": "F11",
+    "scope": "MAIN",
+    "months": [
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Sorawiz/MistralSmall-Creative-24B",
+      "Sorawiz/MistralSmall-Creative-24B-Realist"
+    ],
+    "relation_ids": [
+      "REL-aff7e18f64aa7670e235",
+      "REL-c92aa23f943dcb0805bc"
+    ]
+  },
+  {
+    "variant": "F11-03",
+    "case_family": "F11",
+    "scope": "SPACE",
+    "months": [
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "Sorawiz/MistralSmall-Creative-24B",
+      "Sorawiz/MistralSmall-Creative-24B-Realist"
+    ],
+    "relation_ids": [
+      "REL-aff7e18f64aa7670e235",
+      "REL-c92aa23f943dcb0805bc"
+    ]
+  },
+  {
+    "variant": "F12-01",
+    "case_family": "F12",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Wonder-Griffin/Judge-GPT2",
+      "Wonder-Griffin/JudgeLLM",
+      "Wonder-Griffin/JudgeLLM2"
+    ],
+    "relation_ids": [
+      "REL-4e95f36415c34c879107",
+      "REL-60f649c945a56d34376c",
+      "REL-b07116770e9979972734"
+    ]
+  },
+  {
+    "variant": "F12-02",
+    "case_family": "F12",
+    "scope": "MAIN",
+    "months": [
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "Wonder-Griffin/Judge-GPT2",
+      "Wonder-Griffin/JudgeLLM",
+      "Wonder-Griffin/JudgeLLM2"
+    ],
+    "relation_ids": [
+      "REL-4e95f36415c34c879107",
+      "REL-60f649c945a56d34376c",
+      "REL-b07116770e9979972734"
+    ]
+  },
+  {
+    "variant": "F12-03",
+    "case_family": "F12",
+    "scope": "SPACE",
+    "months": [
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "Wonder-Griffin/Judge-GPT2",
+      "Wonder-Griffin/JudgeLLM",
+      "Wonder-Griffin/JudgeLLM2"
+    ],
+    "relation_ids": [
+      "REL-4e95f36415c34c879107",
+      "REL-60f649c945a56d34376c",
+      "REL-b07116770e9979972734"
+    ]
+  },
+  {
+    "variant": "F13-01",
+    "case_family": "F13",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2026-02"
+    ],
+    "nodes": [
+      "irfan0858/Qw-it",
+      "irfan0858/chatbotDema"
+    ],
+    "relation_ids": [
+      "REL-755fd4239c4108236cb1",
+      "REL-9ae80b639446dde43a1a"
+    ]
+  },
+  {
+    "variant": "F13-02",
+    "case_family": "F13",
+    "scope": "MAIN",
+    "months": [
+      "2026-02"
+    ],
+    "nodes": [
+      "irfan0858/Qw-it",
+      "irfan0858/chatbotDema"
+    ],
+    "relation_ids": [
+      "REL-755fd4239c4108236cb1",
+      "REL-9ae80b639446dde43a1a"
+    ]
+  },
+  {
+    "variant": "F14-01",
+    "case_family": "F14",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "liam-mnlp/MNLP_M2_mcqa_model",
+      "liam-mnlp/first-mcqa-model"
+    ],
+    "relation_ids": [
+      "REL-8fe66617237d6e6a5bd5",
+      "REL-cb41ebb4fa07ff92599f"
+    ]
+  },
+  {
+    "variant": "F14-02",
+    "case_family": "F14",
+    "scope": "MAIN",
+    "months": [
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "liam-mnlp/MNLP_M2_mcqa_model",
+      "liam-mnlp/first-mcqa-model"
+    ],
+    "relation_ids": [
+      "REL-8fe66617237d6e6a5bd5",
+      "REL-cb41ebb4fa07ff92599f"
+    ]
+  },
+  {
+    "variant": "F15-01",
+    "case_family": "F15",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "mHossain/bengali_pos_v1_300000",
+      "mHossain/bengali_pos_v1_400000"
+    ],
+    "relation_ids": [
+      "REL-0b41affef491e11576fc",
+      "REL-eb459c3d1cc6e8b6f282"
+    ]
+  },
+  {
+    "variant": "F15-02",
+    "case_family": "F15",
+    "scope": "MAIN",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "mHossain/bengali_pos_v1_300000",
+      "mHossain/bengali_pos_v1_400000"
+    ],
+    "relation_ids": [
+      "REL-0b41affef491e11576fc",
+      "REL-eb459c3d1cc6e8b6f282"
+    ]
+  },
+  {
+    "variant": "F15-03",
+    "case_family": "F15",
+    "scope": "SPACE",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "mHossain/bengali_pos_v1_300000",
+      "mHossain/bengali_pos_v1_400000"
+    ],
+    "relation_ids": [
+      "REL-0b41affef491e11576fc",
+      "REL-eb459c3d1cc6e8b6f282"
+    ]
+  },
+  {
+    "variant": "F16-01",
+    "case_family": "F16",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "manifestasi/whisper-tiny-manifestasi-indo",
+      "manifestasi/whisper-tiny-manifestasi-indo-v2"
+    ],
+    "relation_ids": [
+      "REL-7992840570db25a830ae",
+      "REL-f4684a4ee7b7fbd1b54d"
+    ]
+  },
+  {
+    "variant": "F16-02",
+    "case_family": "F16",
+    "scope": "MAIN",
+    "months": [
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "manifestasi/whisper-tiny-manifestasi-indo",
+      "manifestasi/whisper-tiny-manifestasi-indo-v2"
+    ],
+    "relation_ids": [
+      "REL-7992840570db25a830ae",
+      "REL-f4684a4ee7b7fbd1b54d"
+    ]
+  },
+  {
+    "variant": "F17-01",
+    "case_family": "F17",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "orionshaw777/codeparrot-ds",
+      "orionshaw777/gpt2-belle-sft",
+      "orionshaw777/gpt2-belle-sft-offcial-1st"
+    ],
+    "relation_ids": [
+      "REL-06df8e2b3d56350b691d",
+      "REL-c951aecf2f86f9073dce",
+      "REL-dd238c8e8753043c23a8"
+    ]
+  },
+  {
+    "variant": "F17-02",
+    "case_family": "F17",
+    "scope": "MAIN",
+    "months": [
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "orionshaw777/codeparrot-ds",
+      "orionshaw777/gpt2-belle-sft",
+      "orionshaw777/gpt2-belle-sft-offcial-1st"
+    ],
+    "relation_ids": [
+      "REL-06df8e2b3d56350b691d",
+      "REL-c951aecf2f86f9073dce",
+      "REL-dd238c8e8753043c23a8"
+    ]
+  },
+  {
+    "variant": "F18-01",
+    "case_family": "F18",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU",
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v1",
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v2"
+    ],
+    "relation_ids": [
+      "REL-93f1d46d710a38564f74",
+      "REL-c668376465e91481ddf0",
+      "REL-d74dffad700ad3cab3a7"
+    ]
+  },
+  {
+    "variant": "F18-02",
+    "case_family": "F18",
+    "scope": "MAIN",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU",
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v1",
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v2"
+    ],
+    "relation_ids": [
+      "REL-93f1d46d710a38564f74",
+      "REL-c668376465e91481ddf0",
+      "REL-d74dffad700ad3cab3a7"
+    ]
+  },
+  {
+    "variant": "F18-03",
+    "case_family": "F18",
+    "scope": "SPACE",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU",
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v1",
+      "quastrinos/race-openbook-finetuned-deberta-v3-large-mcqa-TPU-v2"
+    ],
+    "relation_ids": [
+      "REL-93f1d46d710a38564f74",
+      "REL-c668376465e91481ddf0",
+      "REL-d74dffad700ad3cab3a7"
+    ]
+  },
+  {
+    "variant": "F19-01",
+    "case_family": "F19",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "weiren119/distilhubert-finetuned-finetuned-gtzan",
+      "weiren119/distilhubert-finetuned-gtzan"
+    ],
+    "relation_ids": [
+      "REL-194bc0c0ac1fae6c6fb6",
+      "REL-4834bca58b8b76237ace"
+    ]
+  },
+  {
+    "variant": "F19-02",
+    "case_family": "F19",
+    "scope": "MAIN",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "weiren119/distilhubert-finetuned-finetuned-gtzan",
+      "weiren119/distilhubert-finetuned-gtzan"
+    ],
+    "relation_ids": [
+      "REL-194bc0c0ac1fae6c6fb6",
+      "REL-4834bca58b8b76237ace"
+    ]
+  },
+  {
+    "variant": "F19-03",
+    "case_family": "F19",
+    "scope": "SPACE",
+    "months": [
+      "2024-07",
+      "2024-08",
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "weiren119/distilhubert-finetuned-finetuned-gtzan",
+      "weiren119/distilhubert-finetuned-gtzan"
+    ],
+    "relation_ids": [
+      "REL-194bc0c0ac1fae6c6fb6",
+      "REL-4834bca58b8b76237ace"
+    ]
+  },
+  {
+    "variant": "F20-01",
+    "case_family": "F20",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "yukiarimo/yuna-ai-v1",
+      "yukiarimo/yuna-ai-v1-full"
+    ],
+    "relation_ids": [
+      "REL-cb760c39e7e6f2ce991c",
+      "REL-ce516132c7d2ffab9750"
+    ]
+  },
+  {
+    "variant": "F20-02",
+    "case_family": "F20",
+    "scope": "SPACE",
+    "months": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "yukiarimo/yuna-ai-v1",
+      "yukiarimo/yuna-ai-v1-full"
+    ],
+    "relation_ids": [
+      "REL-cb760c39e7e6f2ce991c",
+      "REL-ce516132c7d2ffab9750"
+    ]
+  },
+  {
+    "variant": "F21-01",
+    "case_family": "F21",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "nodes": [
+      "yukiarimo/yuna-ai-v2",
+      "yukiarimo/yuna-ai-v2-full"
+    ],
+    "relation_ids": [
+      "REL-46cb654934e726adc7b8",
+      "REL-aca5e62953ab3d7dcf33"
+    ]
+  },
+  {
+    "variant": "F21-02",
+    "case_family": "F21",
+    "scope": "SPACE",
+    "months": [
+      "2024-09",
+      "2024-10",
+      "2024-11",
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "nodes": [
+      "yukiarimo/yuna-ai-v2",
+      "yukiarimo/yuna-ai-v2-full"
+    ],
+    "relation_ids": [
+      "REL-46cb654934e726adc7b8",
+      "REL-aca5e62953ab3d7dcf33"
+    ]
+  },
+  {
+    "variant": "F22-01",
+    "case_family": "F22",
+    "scope": "FULL_EVENT",
+    "months": [
+      "2026-02"
+    ],
+    "nodes": [
+      "zenlm/zen-coder-24b-gguf",
+      "zenlm/zen-coder-24b-mlx"
+    ],
+    "relation_ids": [
+      "REL-389de9bf16aaec77bf3a",
+      "REL-3d77725ba26b36363ae0"
+    ]
+  },
+  {
+    "variant": "F22-02",
+    "case_family": "F22",
+    "scope": "MAIN",
+    "months": [
+      "2026-02"
+    ],
+    "nodes": [
+      "zenlm/zen-coder-24b-gguf",
+      "zenlm/zen-coder-24b-mlx"
+    ],
+    "relation_ids": [
+      "REL-389de9bf16aaec77bf3a",
+      "REL-3d77725ba26b36363ae0"
+    ]
+  }
+]

@@ -25,8 +25,9 @@ maps the two replaced pairs; the remaining 238 pairs are shared unchanged.
 Method directions are `item_1`, `item_2`, or `tie`. A direction selects the
 higher-scoring model. A score tie and an expert majority tie are separate
 observations; an expert tie means no clear suitability advantage.
-The relation fields distinguish opposite ordering, comparator ties, and
-same-direction ordering. There are six comparator groups of 40 pairs, each
+`final_relation` distinguishes opposite ordering, comparator ties,
+same-direction ordering, and ties in both ModelRank and the comparator.
+There are six comparator groups of 40 pairs, each
 with ten pairs per task category.
 
 The primary cohort has 137 decisive expert majorities, 102 majority ties and

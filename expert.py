@@ -72,12 +72,7 @@ def validate(frame, original=False):
             raise ValueError('Final relation disagrees with the saved directions')
         if row['original_relation'] not in {'opposite_order', 's3_order_baseline_tie'}:
             raise ValueError('Unknown sampling relation')
-    changed = frame[frame.original_relation.eq('s3_order_baseline_tie') & frame.final_relation.ne('comparator_tie')]
-    if original and (set(changed.pair_id) != EXCEPTIONS or not changed.assigned_comparator.eq('Vanilla PageRank').all()
-            or not changed.final_relation.eq('same_direction').all()):
-        raise ValueError('The two fixed relation exceptions do not match')
-    if not original and len(changed):
-        raise ValueError('The repaired cohort must preserve the sampling relation')
+    # Sampling relations stay frozen; graph-derived analysis relations may differ.
     return pooled
 
 
@@ -142,13 +137,14 @@ def inference(frame):
 
 def strata(frame):
     rows = []
-    for (comp, ori, final), g in frame.groupby(['assigned_comparator','original_relation','final_relation']):
+    for (comp, final), g in frame.groupby(['assigned_comparator','final_relation']):
         decisive = g.majority_outcome.isin(CATEGORIES[:2])
         mr = int((decisive & g.majority_outcome.eq(g.s3_direction)).sum())
-        other = int((decisive & g.majority_outcome.ne(g.s3_direction)).sum())
+        mr_tie = int((decisive & g.s3_direction.eq('tie')).sum())
+        other = int((decisive & g.s3_direction.ne('tie') & g.majority_outcome.ne(g.s3_direction)).sum())
         low, high = wilson(mr,mr+other)
-        rows.append(dict(comparator=comp, original_relation=ori, final_relation=final,
-            n=len(g), mr_supported=mr, opposite_to_mr=other,
+        rows.append(dict(comparator=comp, relation=final,
+            n=len(g), mr_supported=mr, opposite_to_mr=other, mr_tie_decisive=mr_tie,
             comparator_supported=int((decisive & g.majority_outcome.eq(g[EXPERT_METHODS[comp]+'_direction'])).sum()),
             expert_tie=int(g.majority_outcome.eq('tie').sum()), unresolved=int(g.majority_outcome.eq('unresolved').sum()),
             conditional_denominator=mr+other,

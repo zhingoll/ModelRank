@@ -6,8 +6,21 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from graph_inputs import GraphInputs
 
 ROLES = ['Popular Root', 'Popular Leaf', 'Hidden Root', 'Long Tail']
+
+
+def load_panel(assets, panel_dir, month):
+    path = Path(panel_dir) if panel_dir is not None else Path(assets) / 'panel'
+    frame = pd.read_parquet(path / (month + '.parquet'))
+    if panel_dir is not None:
+        if 'S_C3_Q10' in frame.columns:
+            raise ValueError('Rebuilt panel must expose the ModelRank column without an ambiguous score alias')
+        frame = frame.rename(columns={'ModelRank': 'S_C3_Q10'})
+    if frame.empty or frame.model_id.isna().any() or frame.model_id.duplicated().any():
+        raise ValueError('Invalid score-panel population')
+    return frame
 
 
 def roles(frame):
@@ -30,6 +43,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--assets', required=True)
     parser.add_argument('--output', required=True)
+    parser.add_argument('--panel', help='Rebuilt panel.py output directory; defaults to frozen asset scores')
     args = parser.parse_args()
     assets, output = Path(args.assets), Path(args.output)
     root = Path(__file__).resolve().parent
@@ -39,11 +53,11 @@ def main():
     previous = None
     distributions, transitions = [], []
     for month in pd.period_range('2024-07', '2026-02', freq='M').astype(str):
-        frame = roles(pd.read_parquet(assets / 'panel' / (month + '.parquet')))
+        frame = roles(load_panel(assets, args.panel, month))
         (output / 'roles').mkdir(exist_ok=True)
         frame[['model_id','role']].to_parquet(output / 'roles' / (month + '.parquet'), index=False)
         for name, count in frame.role.value_counts().items():
-            distributions.append({'version':'corrected', 'month':month, 'role':name, 'count':int(count),
+            distributions.append({'month':month, 'role':name, 'count':int(count),
                                   'n':len(frame), 'share':count/len(frame), 'download_p90':frame.Downloads.quantile(.9)})
         if previous is not None:
             joined = previous[['model_id','role']].merge(frame[['model_id','role']], on='model_id', validate='one_to_one', suffixes=('_origin','_future'))
@@ -51,12 +65,12 @@ def main():
                 selected = joined.loc[joined.role_origin == left]
                 for right in ROLES:
                     count = int((selected.role_future == right).sum())
-                    transitions.append({'version':'corrected', 'month':month, 'origin_role':left,
+                    transitions.append({'month':month, 'origin_role':left,
                                         'future_role':right, 'count':count, 'row_total':len(selected),
                                         'rate':count/len(selected) if len(selected) else 0.0})
         previous = frame
     dist, trans = pd.DataFrame(distributions), pd.DataFrame(transitions)
-    matrix = trans.groupby(['version','origin_role','future_role'], as_index=False)['count'].sum()
+    matrix = trans.groupby(['origin_role','future_role'], as_index=False)['count'].sum()
     matrix['row_total'] = matrix.groupby('origin_role')['count'].transform('sum')
     matrix['rate'] = matrix['count']/matrix.row_total
     for name, data, key in [('role_distribution', dist, ['month','role']),
@@ -67,8 +81,8 @@ def main():
     metadata = pd.read_parquet(assets / 'models.parquet').drop_duplicates('id',keep='last')
     tagged = frame.merge(metadata[['id','pipeline_tag']], left_on='model_id',right_on='id',how='left',validate='one_to_one')
     ledger = pd.read_parquet(assets / 'first_observed_edges.parquet')
-    nodes = set(frame.model_id)
-    parents = set(ledger.loc[ledger.entry_month.le('2026-02') & ledger.child_id.isin(nodes) & ledger.parent_id.isin(nodes), 'parent_id'])
+    edges, _, _ = GraphInputs(ledger).month(frame.model_id.tolist(), '2026-02')
+    parents = set(edges.parent_id)
     config = json.loads((root / 'data/domain_mapping.json').read_text())
     domain_rows, concentration, sizes = [], [], []
     for mapping in ['submitted','crossmodal_reassigned']:

@@ -33,15 +33,15 @@ _VALID_STATES = {
 
 
 def _arrays(labels: Sequence[int], scores: Sequence[float]) -> tuple[np.ndarray, np.ndarray]:
-    y = np.asarray(labels, dtype=int)
+    y = np.asarray(labels, dtype=float)
     s = np.asarray(scores, dtype=float)
     if y.ndim != 1 or s.ndim != 1 or len(y) != len(s):
         raise ValueError("labels and scores must be equal-length one-dimensional arrays")
-    if not np.isin(y, [0, 1]).all():
+    if not np.isfinite(y).all() or not np.isin(y, [0, 1]).all():
         raise ValueError("labels must be binary")
     if not np.isfinite(s).all():
         raise ValueError("scores must be finite")
-    return y, s
+    return y.astype(int), s
 
 
 def auroc(labels: Sequence[int], scores: Sequence[float]) -> float:
@@ -232,7 +232,7 @@ def bootstrap_bundle(
     limits memory without changing the frozen sample size or statistical rule.
     """
     ids = np.asarray(model_ids, dtype=str)
-    y = np.asarray(labels, dtype=int)
+    y, _ = _arrays(labels, np.zeros(len(ids)))
     arrays = {name: np.asarray(value, dtype=float) for name, value in scores.items()}
     if reference not in arrays or replicates <= 0 or chunk_size <= 0 or len(y) == 0:
         raise ValueError("invalid paired bootstrap inputs")

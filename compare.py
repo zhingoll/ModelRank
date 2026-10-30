@@ -79,17 +79,29 @@ def validate_monthly_grid(
     protocol: Mapping[str, Any],
 ) -> None:
     methods = [str(method) for method in methods]
-    counts = monthly.groupby(["method", "metric", "month"], dropna=False).size()
-    problems = []
-    for method in methods:
-        for family, metrics in protocol["metric_families"].items():
-            months = protocol["origins"]["repropagation" if family == "repropagation" else "three_month"]
-            for metric in metrics:
-                for month in months:
-                    if counts.get((method, metric, month), 0) != 1:
-                        problems.append((method, metric, month, int(counts.get((method, metric, month), 0))))
-    if problems:
-        raise ValueError(f"monthly grid is incomplete: {problems[:5]} (total={len(problems)})")
+    keys = ["method", "metric", "month"]
+    required = keys + ["candidate_n", "base_value", "family", "statistic"]
+    if not set(required).issubset(monthly.columns):
+        raise ValueError("Monthly grid is missing required cohort or outcome metadata")
+    selected = monthly.loc[monthly["method"].isin(methods), required]
+    expected = {(method, metric, month) for method in methods
+                for family, metrics in protocol["metric_families"].items()
+                for metric in metrics
+                for month in protocol["origins"]["repropagation" if family == "repropagation" else "three_month"]}
+    if (selected.isna().any().any() or selected.duplicated(keys).any()
+            or set(selected[keys].itertuples(index=False, name=None)) != expected):
+        raise ValueError("Monthly grid must contain exactly the fixed method/metric/origin cells")
+    if not np.isfinite(selected[["candidate_n", "base_value"]].to_numpy(float)).all():
+        raise ValueError("Monthly cohort and outcome metadata must be finite")
+    families = dict(metric_registry(protocol))
+    statistics = {metric: "auc" if metric == "future_active_parent_binary_3m" else "lift"
+                  for metric in families}
+    if (not selected["family"].eq(selected["metric"].map(families)).all()
+            or not selected["statistic"].eq(selected["metric"].map(statistics)).all()):
+        raise ValueError("Monthly family or statistic differs from the registered outcome")
+    metadata = selected.groupby(["metric", "month"])[["candidate_n", "base_value"]].nunique()
+    if not metadata.eq(1).all().all():
+        raise ValueError("Compared methods must share candidate counts and outcome denominators")
 
 
 def compare_ordered_contrast(

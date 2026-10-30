@@ -248,7 +248,7 @@ def reproduce(pairs: pd.DataFrame) -> dict[str, pd.DataFrame]:
         sensitivity.append(fit_horizon_effects(_observations(unique), horizon=horizon))
     tables = {}
     for name, frames in (("primary_effects", primary), ("earliest_origin_effects", sensitivity)):
-        # Match the final exact-Likes run, not the older CI-only decision labels.
+        # Record confidence-interval direction and Holm-supported direction separately.
         result = _classify(apply_holm_family(pd.concat(frames, ignore_index=True)))
         result = result.rename(columns={"decision": "ci_only_direction"})
         result["holm_supported_direction"] = np.where(

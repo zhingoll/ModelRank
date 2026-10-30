@@ -7,7 +7,7 @@ To redraw only the six statistical figures:
     python figures.py --statistical-only --output /path/to/NEW/directory
 
 Figures use the plotting inputs in data/figures/.
-The scatter input retains the original 7,000 LT sample (seed 42), all other
+The scatter input uses a 7,000-model LT sample (seed 42), all other
 roles, inset points and labelled cases, with original draw order and full-
 population P90 thresholds. The trajectory input has 58 observed model-months;
 observed points are plotted directly. Figure 1 is a manually authored schematic:

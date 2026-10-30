@@ -189,7 +189,7 @@ def build_views(root=HERE):
                 row['estimable_months'] = len(values)
         summary.append(row)
     add('appendix-rq3-threshold-monthly', summary,
-        'Medians/ranges of saved monthly results. Shares are fractions; effects use estimable months only. No rank test rerun.')
+        'Medians/ranges of saved monthly results. Shares are fractions; effects use estimable months only.')
     direct('appendix-rq3-p90-ties', 'results/roles/p90_tie_sensitivity.csv', month='2026-02')
     direct('rq4-transitions', 'results/roles/transition_matrix.csv')
     for label, filename in [('rq5-roles', 'domain_roles'),
@@ -208,7 +208,7 @@ def build_views(root=HERE):
             hr_percent=100 * group['Hidden Root'], gini=row['gini'],
             top_ten_percent=100 * float(row['top_10_models_share'])))
     add('rq5-taxonomy-sensitivity', taxonomy,
-        'Join of saved composition and concentration results, not a new domain analysis.')
+        'Join of saved composition and concentration results.')
     direct('rq5-domain-size-sensitivity', 'results/rq5/domain_size_sensitivity.csv')
     path = 'data/domain_mapping.json'
     raw = (root / path).read_bytes()

@@ -1,5 +1,5 @@
 baseline,sum,count,all
-No PageRank propagation,2,4,False
+No PageRank propagation,1,4,False
 No child quality,0,4,False
 No event injection,0,4,False
 No parent size,0,4,False
